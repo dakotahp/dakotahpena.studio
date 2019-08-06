@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<div class="grid-x">
+  <section class="cell small-8">
+    {{ .Content }}
+  </section>
+</div>
+
+<div class="grid-x">
+  <section class="cell small-8 blog-index-container">
+    {{ range (.Paginate ( first 10 .Pages.ByDate.Reverse )).Pages }}
+        <article class="spacer-top-10">
+          <div>
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            {{ .Summary }}
+          </div>
+
+          {{ if .Truncated }}
+            <div class="spacer-top-4">
+              <a href="{{ .RelPermalink }}">Read more…</a>
+            </div>
+          {{ end }}
+        </article>
+    {{ end }}
+  </section>
+
+  {{ partial "sidebar.html" . }}
+</div>
+
+{{ end }}

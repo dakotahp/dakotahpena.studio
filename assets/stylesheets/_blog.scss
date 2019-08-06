@@ -1,0 +1,23 @@
+.blog-post-container {
+  article {
+    h1, h2, h3 {
+      margin-top: 45px;
+    }
+  }
+
+  .blog-post-meta {
+    color: $gray;
+  }
+}
+
+.blog-index-container {
+
+}
+
+.orbit-bullets button {
+  background-color: $gray;
+}
+
+.orbit-bullets button.is-active {
+  background-color: $purple;
+}

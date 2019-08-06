@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ .Title }} | Coeur d'Alene Tech Group</title>
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {{ with .OutputFormats.Get "RSS" }}
+      <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+      <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+    {{ end }}
+
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/foundation.css">
+    {{ $style := resources.Get "stylesheets/app.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}">
+
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500&display=swap" rel="stylesheet">
+
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
+  </head>
+  <body>
+    <div class="grid-container">
+      {{ partial "header.html" . }}
+
+      <div id="content">
+        {{ block "main" . }}{{ end }}
+      </div>
+    </div>
+
+    <div class="grid-container fluid">
+      {{ partial "footer.html" . }}
+    </div>
+
+    <script src = '{{ .Site.BaseURL }}javascripts/jquery.js'></script>
+    <script src = '{{ .Site.BaseURL }}javascripts/what-input.js'></script>
+    <script src = '{{ .Site.BaseURL }}javascripts/foundation.min.js'></script>
+    <script src = '{{ .Site.BaseURL }}javascripts/app.js'></script>
+  </body>
+</html>

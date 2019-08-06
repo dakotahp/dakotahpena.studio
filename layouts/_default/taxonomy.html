@@ -1,0 +1,10 @@
+{{ define "main" }}
+<section>
+  <h1>{{ .Title }}</h1>
+  <!-- ranges through each of the content files associated with a particular taxonomy term and renders the summary.html content view -->
+  {{ range .Pages.ByPublishDate }}
+    {{ .Render "summary"}}
+    <a href="{{ .RelPermalink }}">Read more…</a>
+  {{ end }}
+</section>
+{{ end }}

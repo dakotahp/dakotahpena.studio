@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Dakotah Peña</title>
+    <link>https://dakotah.pena.name/</link>
+    <description>Recent content in Home on Dakotah Peña</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Dakotah Peña</copyright>
+    <lastBuildDate>Tue, 09 Oct 2018 09:23:10 +0200</lastBuildDate>
+    
+	<atom:link href="https://dakotah.pena.name/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Tech Talk Night</title>
+      <link>https://dakotah.pena.name/posts/2019-06-30-techtalk/</link>
+      <pubDate>Thu, 13 Jun 2019 09:44:51 +0200</pubDate>
+      
+      <guid>https://dakotah.pena.name/posts/2019-06-30-techtalk/</guid>
+      <description>Come join us for our inaugural Tech Talk Night and learn something new from our three presentations. This is a new format and will be recurring monthly going forward.
+Introduction to Elixir By Karmen Blake
+ Come get an introduction to a language whose syntax and ecosystem are top-notch and actively been in development since 2012. Built on top of the BEAM (Erlang Virtual Machine) it relies on decades of industry-strength stability of Erlang.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://dakotah.pena.name/about/</link>
+      <pubDate>Tue, 09 Oct 2018 09:44:51 +0200</pubDate>
+      
+      <guid>https://dakotah.pena.name/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://dakotah.pena.name/contact/</link>
+      <pubDate>Tue, 09 Oct 2018 09:44:51 +0200</pubDate>
+      
+      <guid>https://dakotah.pena.name/contact/</guid>
+      <description> Reach out to the organizer  If you have a question or comment, feel free to use the form below or email dakotah@lakedistrict.space Name   Email    Your Message         </description>
+    </item>
+    
+    <item>
+      <title>July Meeting Recap</title>
+      <link>https://dakotah.pena.name/posts/2018-07-14-july-meeting-recap/</link>
+      <pubDate>Sat, 14 Jul 2018 17:32:00 -0700</pubDate>
+      
+      <guid>https://dakotah.pena.name/posts/2018-07-14-july-meeting-recap/</guid>
+      <description>We had a great turnout for July. Several new folks showed up from different tech related industries like home automation.
+How to Find The Group I&amp;rsquo;m not sure if everybody who RSVPed was in attendance and I apologize if you missed the notification of where to find us. I had sent out a notification to those that were planning to attend around 2pm and then a couple more people RSVPed and didn&amp;rsquo;t get the notification.</description>
+    </item>
+    
+    <item>
+      <title>Upcoming Meeting on Thursday</title>
+      <link>https://dakotah.pena.name/posts/2018-07-09-upcoming-meeting-on-thursday/</link>
+      <pubDate>Mon, 09 Jul 2018 18:01:00 -0700</pubDate>
+      
+      <guid>https://dakotah.pena.name/posts/2018-07-09-upcoming-meeting-on-thursday/</guid>
+      <description>As a reminder, we have an upcoming meeting this Thursday, July 12, 2018 at 6:00pm. The venue this time around is Mad Bomber Brewing in Hayden. Further details on how to find the group will be sent out the day of the meeting.
+Mad Bomber Brewing
+9265 N Government Way
+Hayden, ID 83835</description>
+    </item>
+    
+  </channel>
+</rss>

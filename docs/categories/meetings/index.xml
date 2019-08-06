@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>meetings on Dakotah Peña</title>
+    <link>https://dakotah.pena.name/categories/meetings/</link>
+    <description>Recent content in meetings on Dakotah Peña</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Dakotah Peña</copyright>
+    <lastBuildDate>Mon, 09 Jul 2018 18:01:00 -0700</lastBuildDate>
+    
+	<atom:link href="https://dakotah.pena.name/categories/meetings/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Upcoming Meeting on Thursday</title>
+      <link>https://dakotah.pena.name/posts/2018-07-09-upcoming-meeting-on-thursday/</link>
+      <pubDate>Mon, 09 Jul 2018 18:01:00 -0700</pubDate>
+      
+      <guid>https://dakotah.pena.name/posts/2018-07-09-upcoming-meeting-on-thursday/</guid>
+      <description>As a reminder, we have an upcoming meeting this Thursday, July 12, 2018 at 6:00pm. The venue this time around is Mad Bomber Brewing in Hayden. Further details on how to find the group will be sent out the day of the meeting.
+Mad Bomber Brewing
+9265 N Government Way
+Hayden, ID 83835</description>
+    </item>
+    
+  </channel>
+</rss>

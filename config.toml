@@ -1,0 +1,22 @@
+baseURL = "https://dakotah.pena.name/"
+languageCode = "en-us"
+title = "Dakotah Peña"
+sectionPagesMenu = "main"
+publishDir = "docs"
+copyright = "© Dakotah Peña"
+
+[params]
+  author = "Self"
+  contactEmail = "dakotah@pena.name"
+  dateFormat = "Jan 2, 2006"
+  description = "My cool site"
+  images = ["site-feature-image.jpg"]
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"

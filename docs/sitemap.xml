@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://dakotah.pena.name/posts/</loc>
+    <lastmod>2018-10-09T09:44:51+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/work/code/</loc>
+    <lastmod>2018-10-09T09:44:51+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/work/design/</loc>
+    <lastmod>2018-10-09T09:44:51+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/posts/2019-06-30-techtalk/</loc>
+    <lastmod>2019-06-13T09:44:51+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/about/</loc>
+    <lastmod>2018-10-09T09:44:51+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/contact/</loc>
+    <lastmod>2018-10-09T09:44:51+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/</loc>
+    <lastmod>2018-10-09T09:23:10+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/posts/2018-07-14-july-meeting-recap/</loc>
+    <lastmod>2018-07-14T17:32:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/categories/</loc>
+    <lastmod>2018-07-09T18:01:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/posts/2018-07-09-upcoming-meeting-on-thursday/</loc>
+    <lastmod>2018-07-09T18:01:00-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/categories/meetings/</loc>
+    <lastmod>2018-07-09T18:01:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/work/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

@@ -1,0 +1,10 @@
+<aside class="cell large-2 large-offset-2">
+  <h2>Archive</h2>
+  <ul>
+    {{ range sort .Site.Menus.blog }}
+      <li>
+        <a href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+      </li>
+    {{ end }}
+  </ul>
+</aside>
