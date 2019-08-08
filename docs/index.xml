@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Attribution</title>
+      <link>https://dakotah.pena.name/attribution/</link>
+      <pubDate>Wed, 07 Aug 2019 21:04:41 -0700</pubDate>
+      
+      <guid>https://dakotah.pena.name/attribution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Personal Calling Card</title>
       <link>https://dakotah.pena.name/work/personal-calling-card/</link>
       <pubDate>Mon, 01 Jul 2019 18:20:47 -0700</pubDate>
@@ -64,12 +73,23 @@ Introduction to Elixir By Karmen Blake
     </item>
     
     <item>
-      <title></title>
-      <link>https://dakotah.pena.name/attributions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>About</title>
+      <link>https://dakotah.pena.name/about/</link>
+      <pubDate>Tue, 09 Oct 2018 09:44:51 +0200</pubDate>
       
-      <guid>https://dakotah.pena.name/attributions/</guid>
-      <description></description>
+      <guid>https://dakotah.pena.name/about/</guid>
+      <description>About I&amp;rsquo;m Dakotah, a maker based in Coeur d&amp;rsquo;Alene, Idaho. I focus on creating digital products with great user experience. These days I work at a food-tech company where my role comprises of building new features and improving the overall experience.
+I specialize in frontend development and design systems. I&amp;rsquo;m passionate about the web, design and everything at its intersection.
+I look forward for opportunities as a developer to create meaningful products.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://dakotah.pena.name/contact/</link>
+      <pubDate>Tue, 09 Oct 2018 09:44:51 +0200</pubDate>
+      
+      <guid>https://dakotah.pena.name/contact/</guid>
+      <description> Contact me  If you have a question or comment, feel free to use the form below or email dakotah@lakedistrict.space Name   Email    Your Message         </description>
     </item>
     
   </channel>

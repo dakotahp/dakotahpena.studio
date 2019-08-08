@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dakotah Peña</title>
+    <title>Tags on Dakotah Peña</title>
     <link>https://dakotah.pena.name/tags/</link>
-    <description>Recent content on Dakotah Peña</description>
+    <description>Recent content in Tags on Dakotah Peña</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Dakotah Peña</copyright>
@@ -13,17 +13,20 @@
     
     
     <item>
-      <title>Personal Calling Card</title>
-      <link>https://dakotah.pena.name/work/personal-calling-card/</link>
+      <title></title>
+      <link>https://dakotah.pena.name/tags/</link>
       <pubDate>Mon, 01 Jul 2019 18:20:47 -0700</pubDate>
       
-      <guid>https://dakotah.pena.name/work/personal-calling-card/</guid>
-      <description>Calling Card Grid of characters with name highlighted in red.
-3.5&amp;rdquo; x 2&amp;rdquo; Matte stock</description>
+      <guid>https://dakotah.pena.name/tags/</guid>
+      <description></description>
     </item>
     
-  </channel>
-</rss><guid>https://dakotah.pena.name/tags/ammo-can/</guid>
+    <item>
+      <title>Ammo can</title>
+      <link>https://dakotah.pena.name/tags/ammo-can/</link>
+      <pubDate>Mon, 01 Jul 2019 18:09:41 -0700</pubDate>
+      
+      <guid>https://dakotah.pena.name/tags/ammo-can/</guid>
       <description></description>
     </item>
     
