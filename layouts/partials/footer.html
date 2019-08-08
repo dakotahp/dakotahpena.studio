@@ -5,7 +5,12 @@
         Review my code on <a href="https://github.com/dakotahp">GitHub</a>.
         Check out my photography on <a href="https://smugmug.com/dakotahp">SmugMug</a>.
         <br>
-        Sometimes I write on the <a href='{{ ref . "posts/_index.html" }}'>blog</a>, which has a <a href="{{ .RelPermalink }}">feed</a>.
+        Sometimes I write on the <a href='{{ ref . "posts/_index.html" }}'>blog</a>,
+        which has a
+        {{ with .OutputFormats.Get "RSS" }}
+          {{ printf `<a href="%s">feed</a>` .Permalink | safeHTML }}
+        {{ end }}
+        .
         <br>
         You may <a href='{{ ref . "/contact.html" }}'>contact me</a> if you'd like.
       </h4>
