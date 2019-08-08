@@ -6,9 +6,9 @@
     <nav id="primary-nav" class="align-right text-right">
       <ul class="inline">
         {{ $currentPage := . }}
-        {{ range sort .Site.Menus.main.ByWeight }}
+        {{ range sort .Site.Menus.primary.ByWeight }}
           <li>
-            <a{{ if $currentPage.IsMenuCurrent "main" . }} class="active"{{ end }} href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+            <a {{ if $currentPage.IsMenuCurrent "main" . }}class="active"{{ end }} href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
           </li>
         {{ end }}
       </ul>

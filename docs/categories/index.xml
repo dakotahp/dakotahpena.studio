@@ -7,17 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Dakotah Peña</copyright>
-    <lastBuildDate>Mon, 09 Jul 2018 18:01:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2019 18:20:47 -0700</lastBuildDate>
     
 	<atom:link href="https://dakotah.pena.name/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>meetings</title>
-      <link>https://dakotah.pena.name/categories/meetings/</link>
-      <pubDate>Mon, 09 Jul 2018 18:01:00 -0700</pubDate>
+      <title>design</title>
+      <link>https://dakotah.pena.name/categories/design/</link>
+      <pubDate>Mon, 01 Jul 2019 18:20:47 -0700</pubDate>
       
-      <guid>https://dakotah.pena.name/categories/meetings/</guid>
+      <guid>https://dakotah.pena.name/categories/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code</title>
+      <link>https://dakotah.pena.name/categories/code/</link>
+      <pubDate>Sat, 29 Jun 2019 07:43:54 -0700</pubDate>
+      
+      <guid>https://dakotah.pena.name/categories/code/</guid>
       <description></description>
     </item>
     

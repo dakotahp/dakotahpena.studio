@@ -1,15 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Works on Dakotah Peña</title>
+    <title>Work on Dakotah Peña</title>
     <link>https://dakotah.pena.name/work/</link>
-    <description>Recent content in Works on Dakotah Peña</description>
+    <description>Recent content in Work on Dakotah Peña</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Dakotah Peña</copyright>
+    <lastBuildDate>Tue, 09 Oct 2018 09:44:51 +0200</lastBuildDate>
     
 	<atom:link href="https://dakotah.pena.name/work/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Personal Calling Card</title>
+      <link>https://dakotah.pena.name/work/personal-calling-card/</link>
+      <pubDate>Mon, 01 Jul 2019 18:20:47 -0700</pubDate>
+      
+      <guid>https://dakotah.pena.name/work/personal-calling-card/</guid>
+      <description>Calling Card Grid of characters with name highlighted in red.
+3.5&amp;rdquo; x 2&amp;rdquo; Matte stock</description>
+    </item>
+    
+    <item>
+      <title>First Aid Kit</title>
+      <link>https://dakotah.pena.name/work/first-aid-kit/</link>
+      <pubDate>Mon, 01 Jul 2019 18:09:41 -0700</pubDate>
+      
+      <guid>https://dakotah.pena.name/work/first-aid-kit/</guid>
+      <description>First Aid Kit 50 caliber ammo canister converted into first aid kit. Painted by an auto body shop.</description>
+    </item>
+    
+    <item>
+      <title>Coeur d&#39;Alene Tech Group Website</title>
+      <link>https://dakotah.pena.name/work/cda-tech-website/</link>
+      <pubDate>Sat, 29 Jun 2019 07:43:54 -0700</pubDate>
+      
+      <guid>https://dakotah.pena.name/work/cda-tech-website/</guid>
+      <description> Coeur d&amp;rsquo;Alene Tech Group Website </description>
+    </item>
+    
+    <item>
+      <title>Fixie Bike</title>
+      <link>https://dakotah.pena.name/work/bike/</link>
+      <pubDate>Sat, 29 Jun 2019 07:43:54 -0700</pubDate>
+      
+      <guid>https://dakotah.pena.name/work/bike/</guid>
+      <description>Fixed Wheel Bike Setting out to design a bike from scratch, I started with a raw steel frame.
+Designed piece-by-piece. One gear, one brake.
+Parts:
+Mission Bicycles frame Velo Orange handle bar Brooks B-17 saddle Bianchi stem Shimano Ultegra brake Weimann wheels Veloflex Record tyres MKS pedals Sugino crankset</description>
+    </item>
     
   </channel>
 </rss>

@@ -11,6 +11,7 @@ $purple: #b294bb;
 $active-nav-color: $purple;
 $link-color: darken(#000, 20%);
 
+$text-kinda-muted-color: hsla(300, 0%, 17%, 0.75);
 $text-muted-color: #5f5e5f;
 $text-very-muted-color: #9fa0a0;
 
@@ -26,4 +27,8 @@ h4,
 h5,
 h6 {
   color: $default-text-color;
+}
+
+#hero h2 {
+  color: $text-kinda-muted-color;
 }

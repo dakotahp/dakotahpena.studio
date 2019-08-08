@@ -2,7 +2,7 @@
 title: "About"
 date: 2018-10-09T09:44:51+02:00
 draft: false
-menu: "main"
+menu: "secondary"
 ---
 
 # About

@@ -1,0 +1,27 @@
+a.underline {
+  text-decoration: underline;
+}
+
+/*
+  Weights
+*/
+
+.text__bold {
+  font-weight: bold;
+}
+
+.text__normal {
+  font-weight: normal;
+}
+
+.download-source-group {
+  button { margin-right: 15px; }
+  span, a {
+    color: $text-muted-color;
+    vertical-align: super;
+
+    &:link {
+      color: $text-muted-color;
+    }
+  }
+}
