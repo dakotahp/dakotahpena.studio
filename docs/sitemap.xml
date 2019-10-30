@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -24,6 +24,20 @@
   </url>
   
   <url>
+    <loc>https://dakotah.pena.name/essays/perfect-change/</loc>
+    <lastmod>2019-08-12T18:09:08-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/essays/everyday-carry/</loc>
+    <lastmod>2019-08-08T21:44:36-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://dakotah.pena.name/attribution/</loc>
     <lastmod>2019-08-07T21:04:41-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -31,15 +45,17 @@
   </url>
   
   <url>
-    <loc>https://dakotah.pena.name/tags/</loc>
+    <loc>https://dakotah.pena.name/categories/</loc>
     <lastmod>2019-07-01T18:20:47-07:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://dakotah.pena.name/categories/</loc>
+    <loc>https://dakotah.pena.name/categories/design/</loc>
     <lastmod>2019-07-01T18:20:47-07:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -52,19 +68,15 @@
   <url>
     <loc>https://dakotah.pena.name/tags/</loc>
     <lastmod>2019-07-01T18:20:47-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://dakotah.pena.name/categories/design/</loc>
-    <lastmod>2019-07-01T18:20:47-07:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dakotah.pena.name/tags/ammo-can/</loc>
     <lastmod>2019-07-01T18:09:41-07:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -75,7 +87,21 @@
   </url>
   
   <url>
+    <loc>https://dakotah.pena.name/categories/code/</loc>
+    <lastmod>2019-06-29T07:43:54-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://dakotah.pena.name/work/cda-tech-website/</loc>
+    <lastmod>2019-06-29T07:43:54-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/tags/design/</loc>
     <lastmod>2019-06-29T07:43:54-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -89,33 +115,24 @@
   </url>
   
   <url>
-    <loc>https://dakotah.pena.name/categories/code/</loc>
-    <lastmod>2019-06-29T07:43:54-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://dakotah.pena.name/tags/design/</loc>
-    <lastmod>2019-06-29T07:43:54-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://dakotah.pena.name/tags/industrial-design/</loc>
     <lastmod>2019-06-29T07:43:54-07:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dakotah.pena.name/tags/web-design/</loc>
     <lastmod>2019-06-29T07:43:54-07:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dakotah.pena.name/tags/web-development/</loc>
     <lastmod>2019-06-29T07:43:54-07:00</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
