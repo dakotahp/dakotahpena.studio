@@ -24,3 +24,11 @@ Organizer of local technology meetup to unite the disparate technology community
 ### Lake District Coworking
 
 Creator of a coworking space.
+
+## Accolades
+
+2014
+
+Design and Design Award for adr.enal.in business card.
+
+Published in Design and Design Book of the Year.
