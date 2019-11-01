@@ -13,16 +13,6 @@
     
     
     <item>
-      <title>Always Carry Perfect Change</title>
-      <link>https://dakotah.pena.name/essays/perfect-change/</link>
-      <pubDate>Mon, 12 Aug 2019 18:09:08 -0700</pubDate>
-      
-      <guid>https://dakotah.pena.name/essays/perfect-change/</guid>
-      <description>People pay with cash less and less these days, particularly with change. Transactions under about twenty dollars are sometimes worth paying in cash to me. Because the finality of the transaction is so nice sometimes. Additionally, small local businesses prefer cash because it&amp;rsquo;s harder to absorb the merchant fee.
-I often just hand over the most efficient bank note and put the change in a container for a future CoinStar trip.</description>
-    </item>
-    
-    <item>
       <title>Everyday Carry</title>
       <link>https://dakotah.pena.name/essays/everyday-carry/</link>
       <pubDate>Thu, 08 Aug 2019 21:44:36 -0700</pubDate>
@@ -112,6 +102,16 @@ I look forward for opportunities as a developer to create meaningful products.</
       
       <guid>https://dakotah.pena.name/contact/</guid>
       <description> Contact me  If you have a question or comment, feel free to use the form below or email dakotah@lakedistrict.space Name   Email    Your Message         </description>
+    </item>
+    
+    <item>
+      <title>Always Carry Perfect Change</title>
+      <link>https://dakotah.pena.name/essays/perfect-change/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dakotah.pena.name/essays/perfect-change/</guid>
+      <description>People pay with cash less and less these days, particularly with change. Transactions under about twenty dollars are sometimes worth paying in cash to me. Because the finality of the transaction is so nice sometimes. Additionally, small local businesses prefer cash because it&#39;s harder to absorb the merchant fee.
+    I often just hand over the most efficient bank note and put the change in a container for a future CoinStar trip.</description>
     </item>
     
   </channel>

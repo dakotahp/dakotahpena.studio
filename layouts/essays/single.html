@@ -2,7 +2,7 @@
 
 <div class="grid-x blog-post-container">
   <section class="cell small-8">
-    <a href="/blog/">&#x2190; Back to Blog</a>
+    <a href="/essays/">&#x2190; Back to Essays</a>
   </section>
 </div>
 
@@ -11,9 +11,11 @@
 
     <h1 class="spacer-top-5">{{ .Title }}</h1>
 
-    <div class="blog-post-meta">
-      <time>{{- .Date.Format (.Site.Params.dateFormat | default "2006.1.2") -}}</time>
-    </div>
+    {{ if .Date }}
+      <div class="blog-post-meta">
+        <time>{{- .Date.Format (.Site.Params.dateFormat | default "2006.1.2") -}}</time>
+      </div>
+    {{ end }}
 
     <article class="spacer-top-10">{{ .Content }}</article>
   </section>
