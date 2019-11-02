@@ -8,8 +8,6 @@ hero_image: "http://placeholder.it/300x300"
 images: []
 ---
 
-# Fixed Wheel Bike
-
 Setting out to design a bike from scratch, I started with a raw steel frame.
 
 Designed piece-by-piece. One gear, one brake.

@@ -10,8 +10,6 @@ images: ["calling-card-1.jpg", "calling-card-2.jpg"]
 hero_thumbnail: ""
 ---
 
-# Calling Card
-
 Grid of characters with name highlighted in red.
 
 3.5" x 2"

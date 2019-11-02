@@ -11,7 +11,5 @@ images: []
 hero_thumbnail: ""
 ---
 
-# First Aid Kit
-
 50 caliber ammo canister converted into first aid kit. Painted by an auto
 body shop.

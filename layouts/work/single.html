@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<h1 class="spacer-bottom-10">{{ .Title }}</h1>
+
+{{ range .Params.images }}
+  <img src="/img/{{.}}" />
+{{ end }}
+
+<article class="spacer-top-10">
+  {{ .Content }}
+</article>
+
+{{ end }}
