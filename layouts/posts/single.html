@@ -12,8 +12,6 @@
     <h1 class="spacer-top-5">{{ .Title }}</h1>
 
     <div class="blog-post-meta">
-      {{- if or .Params.author .Site.Params.author -}}
-      {{ .Params.author | default .Site.Params.author }} &middot; {{ end }}
       <time>{{- .Date.Format (.Site.Params.dateFormat | default "2006.1.2") -}}</time>
     </div>
 
