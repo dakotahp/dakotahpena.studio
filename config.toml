@@ -4,6 +4,7 @@ title = "Dakotah Peña"
 sectionPagesMenu = "main"
 publishDir = "docs"
 copyright = "© Dakotah Peña"
+enableGitInfo = true
 
 [author]
   name = "Dakotah"
