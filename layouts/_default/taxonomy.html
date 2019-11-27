@@ -1,10 +1,26 @@
 {{ define "main" }}
-<section>
-  <h1>{{ .Title }}</h1>
-  <!-- ranges through each of the content files associated with a particular taxonomy term and renders the summary.html content view -->
-  {{ range .Pages.ByPublishDate }}
-    {{ .Render "summary"}}
-    <a href="{{ .RelPermalink }}">Read more…</a>
-  {{ end }}
-</section>
+
+<div class="grid-x">
+  <section class="cell small-8 blog-index-container">
+
+    <section>
+      <h1>{{ .Title }}</h1>
+      {{ range .Pages.ByPublishDate }}
+        <article class="spacer-top-10">
+          <div>
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <p>{{ .Summary }}</p>
+          </div>
+
+          {{ if .Truncated }}
+            <div class="spacer-top-4">
+              <a href="{{ .RelPermalink }}">Read more…</a>
+            </div>
+          {{ end }}
+        </article>
+      {{ end }}
+    </section>
+  </section>
+</div>
+
 {{ end }}
