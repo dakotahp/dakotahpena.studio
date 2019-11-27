@@ -5,6 +5,7 @@ draft: false
 menu: "blog"
 tags: ["communication", "FaceTime", "Ting", "cellular"]
 categories: ["Finance"]
+aliases: ["/blog/2015/5/facetime-audio-versus-minutes-cost-analysis"]
 ---
 
 Years ago many pundits and technophiles lamented the lack of a data-only cellular carrier. Because the carriers could price different modes of communication, be it voice, data, SMS, differently it means they could adjust their profits over time as usage of these different channels shifted so they could stay ahead of any curve.
