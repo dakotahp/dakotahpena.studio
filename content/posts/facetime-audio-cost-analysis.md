@@ -4,7 +4,7 @@ date: 2015-06-01T17:44:14-08:00
 draft: false
 menu: "blog"
 tags: ["communication", "FaceTime", "Ting", "cellular"]
-categories: []
+categories: ["Finance"]
 ---
 
 Years ago many pundits and technophiles lamented the lack of a data-only cellular carrier. Because the carriers could price different modes of communication, be it voice, data, SMS, differently it means they could adjust their profits over time as usage of these different channels shifted so they could stay ahead of any curve.

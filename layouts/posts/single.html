@@ -12,10 +12,19 @@
     <h1 class="spacer-top-5">{{ .Title }}</h1>
 
     <div class="blog-post-meta">
-      <time>{{- .Date.Format (.Site.Params.dateFormat | default "2006.1.2") -}}</time>
+      <time>{{- .Date.Format (.Site.Params.dateFormat) -}}</time>
     </div>
 
     <article class="spacer-top-10">{{ .Content }}</article>
+
+    <hr>
+
+    <div class="meta">
+      Filed under
+      {{ range .Params.categories }}
+        <a href="/categories/{{ lower . }}/">{{ . }}</a>
+      {{end}}
+    </div>
   </section>
 
   {{ partial "blog_sidebar.html" . }}
