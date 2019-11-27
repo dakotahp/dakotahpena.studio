@@ -5,11 +5,15 @@ sectionPagesMenu = "main"
 publishDir = "docs"
 copyright = "© Dakotah Peña"
 
+[author]
+  name = "Dakotah"
+  email = "dakotah@pena.name"
+
 [params]
   author = "Self"
   contactEmail = "dakotah@pena.name"
   dateFormat = "Jan 2, 2006"
-  description = "My cool site"
+  description = "Dakotah Peña, maker."
   images = ["site-feature-image.jpg"]
 
 [sitemap]

@@ -6,6 +6,8 @@
     <description>Recent content in Categories on Dakotah Peña</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>dakotah@pena.name (Dakotah)</managingEditor>
+    <webMaster>dakotah@pena.name (Dakotah)</webMaster>
     <copyright>© Dakotah Peña</copyright>
     <lastBuildDate>Mon, 01 Jul 2019 18:20:47 -0700</lastBuildDate>
     
@@ -16,7 +18,7 @@
       <title>design</title>
       <link>https://dakotah.pena.name/categories/design/</link>
       <pubDate>Mon, 01 Jul 2019 18:20:47 -0700</pubDate>
-      
+      <author>dakotah@pena.name (Dakotah)</author>
       <guid>https://dakotah.pena.name/categories/design/</guid>
       <description></description>
     </item>
@@ -25,7 +27,7 @@
       <title>code</title>
       <link>https://dakotah.pena.name/categories/code/</link>
       <pubDate>Sat, 29 Jun 2019 07:43:54 -0700</pubDate>
-      
+      <author>dakotah@pena.name (Dakotah)</author>
       <guid>https://dakotah.pena.name/categories/code/</guid>
       <description></description>
     </item>
