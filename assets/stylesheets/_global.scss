@@ -1,20 +1,5 @@
 body {
   background-color: $background-color;
-  font-family: 'Rubik', 'Helvetica', sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Rubik', 'Helvetica', sans-serif;
-  font-weight: 500;
-
-  &.normal-weight {
-    font-weight: normal;
-  }
 }
 
 #header {

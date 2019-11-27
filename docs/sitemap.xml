@@ -129,13 +129,6 @@
   </url>
   
   <url>
-    <loc>https://dakotah.pena.name/posts/2019-06-30-techtalk/</loc>
-    <lastmod>2019-06-13T09:44:51+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://dakotah.pena.name/about/</loc>
     <lastmod>2018-10-09T09:44:51+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -152,6 +145,41 @@
   <url>
     <loc>https://dakotah.pena.name/</loc>
     <lastmod>2018-10-09T09:23:10+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/tags/cellular/</loc>
+    <lastmod>2015-06-01T17:44:14-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/tags/communication/</loc>
+    <lastmod>2015-06-01T17:44:14-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/tags/facetime/</loc>
+    <lastmod>2015-06-01T17:44:14-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/posts/facetime-audio-cost-analysis/</loc>
+    <lastmod>2015-06-01T17:44:14-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/tags/ting/</loc>
+    <lastmod>2015-06-01T17:44:14-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

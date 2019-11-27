@@ -15,14 +15,13 @@
     
     
     <item>
-      <title>First Tech Talk Night</title>
-      <link>https://dakotah.pena.name/posts/2019-06-30-techtalk/</link>
-      <pubDate>Thu, 13 Jun 2019 09:44:51 +0200</pubDate>
+      <title>FaceTime Audio Versus Voice Cost Analysis</title>
+      <link>https://dakotah.pena.name/posts/facetime-audio-cost-analysis/</link>
+      <pubDate>Mon, 01 Jun 2015 17:44:14 -0800</pubDate>
       <author>dakotah@pena.name (Dakotah)</author>
-      <guid>https://dakotah.pena.name/posts/2019-06-30-techtalk/</guid>
-      <description>Come join us for our inaugural Tech Talk Night and learn something new from our three presentations. This is a new format and will be recurring monthly going forward.
-Introduction to Elixir By Karmen Blake
- Come get an introduction to a language whose syntax and ecosystem are top-notch and actively been in development since 2012. Built on top of the BEAM (Erlang Virtual Machine) it relies on decades of industry-strength stability of Erlang.</description>
+      <guid>https://dakotah.pena.name/posts/facetime-audio-cost-analysis/</guid>
+      <description>Years ago many pundits and technophiles lamented the lack of a data-only cellular carrier. Because the carriers could price different modes of communication, be it voice, data, SMS, differently it means they could adjust their profits over time as usage of these different channels shifted so they could stay ahead of any curve.
+The argument for a data-only provider is that all communication can be transmitted over data and we can have one single method of communicating on a mobile phone and thereby turning providers into dumb pipes like a cable internet connection.</description>
     </item>
     
   </channel>
