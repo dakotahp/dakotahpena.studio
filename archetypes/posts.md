@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+publishDate: {{ .Date }}
 draft: false
 menu: "blog"
 tags: ["Getting started"]
