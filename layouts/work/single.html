@@ -1,6 +1,5 @@
 {{ define "main" }}
 
-
 <div class="grid-x">
   <section class="cell small-8">
     <a href="/work/">&#x2190; Back to Work</a>
@@ -9,9 +8,39 @@
 
 <h1 class="spacer-bottom-10">{{ .Title }}</h1>
 
-{{ range .Params.images }}
-  <img src="/img/{{.}}" width="700px" />
-{{ end }}
+<div class="orbit" role="region" aria-label="{{ .Title }}" data-orbit>
+  <div class="orbit-wrapper">
+    {{ if gt .Params.images 1 }}
+      <div class="orbit-controls">
+        <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+        <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+      </div>
+    {{ end }}
+
+    <ul class="orbit-container">
+      {{ range $index, $image := .Params.images }}
+        <li class="is-active orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="/img/{{ $image }}" width="700px" alt="Image {{ $image }} of {{ len $.Params.images }}">
+          </figure>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+
+  {{ if gt .Params.images 1 }}
+    <nav class="orbit-bullets">
+      {{ range $index, $image := .Params.images }}
+        <button class="{{ if eq $index 0 }}is-active{{end}}" data-slide="{{ $index }}">
+          <span class="show-for-sr">Slide {{ $index }} details.</span>
+          {{ if eq $index 0 }}
+            <span class="show-for-sr" data-slide-active-label>Current Slide</span>
+          {{end}}
+        </button>
+      {{ end }}
+    </nav>
+  {{ end }}
+</div>
 
 <article class="spacer-top-10">
   {{ .Content }}

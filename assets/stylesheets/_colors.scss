@@ -32,3 +32,10 @@ h6 {
 #hero h2 {
   color: $text-kinda-muted-color;
 }
+
+/*
+  Orbit carousel button
+*/
+.orbit .orbit-bullets button.is-active {
+  background-color: $red;
+}
