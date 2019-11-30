@@ -1,8 +1,17 @@
-.blog-post-container {
+.blog-post-container,
+.post__container {
   article {
     h1, h2, h3 {
       margin-top: 45px;
     }
+  }
+
+  .post__content .drop-cap > p:first-of-type:first-letter {
+    color: red;
+    float: left;
+    font-size: 4em;
+    line-height: 4.3rem;
+    margin: 0 10px 0 0;
   }
 
   .blog-post-meta {
