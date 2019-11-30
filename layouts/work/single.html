@@ -1,9 +1,16 @@
 {{ define "main" }}
 
+
+<div class="grid-x">
+  <section class="cell small-8">
+    <a href="/work/">&#x2190; Back to Work</a>
+  </section>
+</div>
+
 <h1 class="spacer-bottom-10">{{ .Title }}</h1>
 
 {{ range .Params.images }}
-  <img src="/img/{{.}}" />
+  <img src="/img/{{.}}" width="700px" />
 {{ end }}
 
 <article class="spacer-top-10">
