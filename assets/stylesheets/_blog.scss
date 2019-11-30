@@ -8,10 +8,17 @@
   .blog-post-meta {
     color: $gray;
   }
+
+  .photo__left {
+    float: left;
+  }
+
+  .photo__photo {
+    float: right;
+  }
 }
 
 .blog-index-container {
-
 }
 
 .orbit-bullets button {

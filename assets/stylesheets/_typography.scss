@@ -88,3 +88,39 @@ a.underline {
     }
   }
 }
+
+/*
+  Pull quote
+*/
+
+blockquote.pull-quote {
+    border-radius: 3px;
+    color: red;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 600;
+    margin: 1rem auto 2rem;
+    padding: 1rem 1.2rem;
+    position: relative;  /*  <--- */
+    text-align: center;
+    width: 80%;  /* create space for the quotes */
+}
+/* -- create the quotation marks -- */
+blockquote.pull-quote:before,
+blockquote.pull-quote:after{
+    position: absolute;
+    /* -- inside the relative position of blockquote -- */
+    top: 13px;
+    color: #E8E8E8;
+    font-size: 4rem;
+}
+blockquote.pull-quote:before{
+    content: '\201C';
+    margin-right: 13px;
+    right: 100%;
+}
+blockquote.pull-quote:after{
+    content: '\201D';
+    margin-left: 13px;
+    left: 100%;
+}
