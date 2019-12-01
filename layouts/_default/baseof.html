@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ .Title }} | Coeur d'Alene Tech Group</title>
+    <title>{{ .Title }} | Dakotah Peña</title>
 
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    {{ with .OutputFormats.Get "RSS" }}
+    {{- with .OutputFormats.Get "RSS" -}}
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end }}
 

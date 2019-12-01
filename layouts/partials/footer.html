@@ -10,6 +10,10 @@
         {{ with .OutputFormats.Get "RSS" }}
           {{ printf `<a href="%s">feed</a>` .Permalink | safeHTML }}
         {{ end }}
+
+        {{ with .OutputFormats.Get "rss" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
         .
         <br>
         You may <a href='{{ ref . "/contact.html" }}'>contact me</a> if you'd like.
