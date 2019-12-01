@@ -27,6 +27,9 @@
             <li class="is-active orbit-slide">
               <figure class="orbit-figure">
                 <img class="orbit-image" src="{{ $image.RelPermalink }}" alt="Image {{ $fullImage }} of {{ len $images }}">
+                {{ if ne $image.Title $image.Name }}
+                  <figcaption class="orbit-caption">{{ $image.Title }}</figcaption>
+                {{ end }}
               </figure>
             </li>
           {{ end }}

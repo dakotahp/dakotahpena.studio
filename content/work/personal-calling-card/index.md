@@ -7,9 +7,9 @@ tags: ["ammo"]
 technologies: [""]
 resources:
 - src: calling-card-1.jpg
-  title: Front of card
+  title: Front
 - src: calling-card-2.jpg
-  title: Front of card
+  title: Back
 ---
 
 Grid of characters with name highlighted in red.
