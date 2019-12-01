@@ -5,8 +5,6 @@ draft: true
 categories: ["design", "code"]
 tags: ["Jekyll"]
 technologies: [""]
-hero_image: ""
-hero_thumbnail: ""
 ---
 
 # Project Title

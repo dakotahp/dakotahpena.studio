@@ -5,8 +5,6 @@ draft: true
 categories: ["design", "code"]
 tags: [""]
 technologies: [""]
-hero_image: ""
-hero_thumbnail: ""
 ---
 
 # URL Decode

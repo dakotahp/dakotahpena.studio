@@ -5,7 +5,6 @@ draft: false
 categories: ["design", "code"]
 tags: ["design", "web design", "web development"]
 technologies: ["Hugo", "SASS", "Markdown", "SVG"]
-hero_image: ""
 ---
 
 # Coeur d'Alene Tech Group Website

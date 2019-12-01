@@ -4,8 +4,6 @@ date: 2019-06-29T07:43:54-07:00
 draft: false
 categories: ["design"]
 tags: ["design", "industrial design"]
-hero_image: "http://placeholder.it/300x300"
-images: []
 ---
 
 Setting out to design a bike from scratch, I started with a raw steel frame.

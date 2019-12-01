@@ -6,9 +6,9 @@ draft: false
 categories: ["design"]
 tags: ["Ammo can"]
 technologies: [""]
-hero_image: "first-aid-kit/first-aid-kit.jpg"
-images: ["first-aid-kit/first-aid-kit.jpg"]
-hero_thumbnail: ""
+resources:
+- src: first-aid-kit.jpg
+  title: Front of card
 ---
 
 50 caliber ammo canister converted into first aid kit. Coated auto body paint.
