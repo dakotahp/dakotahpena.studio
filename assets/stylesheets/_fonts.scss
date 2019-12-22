@@ -1,0 +1,80 @@
+/*
+  Whitney
+*/
+
+@font-face {
+  font-family: 'Whitney';
+  src: url('/fonts/whitney/whitney-light-webfont.eot');
+  src: url('/fonts/whitney/whitney-light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/whitney/whitney-light-webfont.woff') format('woff'),
+       url('/fonts/whitney/whitney-light-webfont.woff2') format('woff2'),
+       url('/fonts/whitney/whitney-light-webfont.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: url('/fonts/whitney/whitney-book-webfont.eot');
+  src: url('/fonts/whitney/whitney-book-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/whitney/whitney-book-webfont.woff') format('woff'),
+       url('/fonts/whitney/whitney-book-webfont.woff2') format('woff2'),
+       url('/fonts/whitney/whitney-book-webfont.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: url('/fonts/whitney/whitney-semibold-webfont.eot');
+  src: url('/fonts/whitney/whitney-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/whitney/whitney-semibold-webfont.woff') format('woff'),
+       url('/fonts/whitney/whitney-semibold-webfont.woff2') format('woff2'),
+       url('/fonts/whitney/whitney-semibold-webfont.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Whitney';
+  src: url('/fonts/whitney/whitney-black-webfont.eot');
+  src: url('/fonts/whitney/whitney-black-webfont.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/whitney/whitney-black-webfont.woff') format('woff'),
+       url('/fonts/whitney/whitney-black-webfont.woff2') format('woff2'),
+       url('/fonts/whitney/whitney-black-webfont.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+/*
+  Mercury Text
+*/
+
+@font-face {
+  font-family: 'Mercury Text';
+  src: url(/fonts/mercury/mercury-textg4italic-webfont.eot);
+  src: url(/fonts/mercury/mercury-textg4italic-webfont.eot?#iefix) format('embedded-opentype'),
+       url(/fonts/mercury/mercury-textg4italic-webfont.woff) format('woff'),
+       url(/fonts/mercury/mercury-textg4italic-webfont.ttf) format('truetype'),
+       url(/fonts/mercury/mercury-textg4italic-webfont.svg#mercurytext_g4_italic) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mercury Text';
+  src: url(/fonts/mercury/mercury-textg4roman-webfont.eot);
+  src: url(/fonts/mercury/mercury-textg4roman-webfont.eot?#iefix) format('embedded-opentype'),
+       url(/fonts/mercury/mercury-textg4roman-webfont.woff) format('woff'),
+       url(/fonts/mercury/mercury-textg4roman-webfont.ttf) format('truetype'),
+       url(/fonts/mercury/mercury-textg4roman-webfont.svg#mercurytext_g4_roman) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mercury Text';
+  src: url(/fonts/mercury/Mercury-TextG4Semibold.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

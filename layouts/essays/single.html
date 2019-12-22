@@ -12,7 +12,7 @@
     <h1 class="spacer-top-5">{{ .Title }}</h1>
 
     {{ if .Date }}
-      <div class="blog-post-meta">
+      <div class="post__meta">
         <time datetime="{{ .Date }}">{{- .Date.Format (.Site.Params.dateFormat) -}}</time>
 
         {{ if .Lastmod }}

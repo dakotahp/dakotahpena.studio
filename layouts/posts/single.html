@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div class="grid-x blog-post-container">
+<div class="grid-x post__container">
   <section class="cell small-8">
     <a href="/posts/">&#x2190; Back to Blog</a>
   </section>
@@ -11,7 +11,7 @@
 
     <h1 class="spacer-top-5">{{ .Title }}</h1>
 
-    <div class="blog-post-meta">
+    <div class="post__meta">
       <time datetime="{{ .Date }}">{{- .Date.Format (.Site.Params.dateFormat) -}}</time>
       {{ if .Lastmod }}
         &middot;
