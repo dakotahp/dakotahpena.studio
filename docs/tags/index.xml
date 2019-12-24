@@ -9,10 +9,19 @@
     <managingEditor>dakotah@pena.name (Dakotah)</managingEditor>
     <webMaster>dakotah@pena.name (Dakotah)</webMaster>
     <copyright>© Dakotah Peña</copyright>
-    <lastBuildDate>Mon, 01 Jul 2019 18:20:47 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 24 Dec 2019 06:55:14 -0800</lastBuildDate>
     
 	<atom:link href="https://dakotah.pena.name/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>print</title>
+      <link>https://dakotah.pena.name/tags/print/</link>
+      <pubDate>Tue, 24 Dec 2019 06:55:14 -0800</pubDate>
+      <author>dakotah@pena.name (Dakotah)</author>
+      <guid>https://dakotah.pena.name/tags/print/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ammo</title>

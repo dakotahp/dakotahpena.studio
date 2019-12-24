@@ -24,6 +24,55 @@
   </url>
   
   <url>
+    <loc>https://dakotah.pena.name/categories/</loc>
+    <lastmod>2019-12-24T06:55:14-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/content/</loc>
+    <lastmod>2019-12-24T06:55:14-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/categories/design/</loc>
+    <lastmod>2019-12-24T06:55:14-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/content/work/human-fund-card/</loc>
+    <lastmod>2019-12-24T06:55:14-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/work/human-fund-card/</loc>
+    <lastmod>2019-12-24T06:55:14-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/tags/print/</loc>
+    <lastmod>2019-12-24T06:55:14-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/tags/</loc>
+    <lastmod>2019-12-24T06:55:14-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://dakotah.pena.name/essays/everyday-carry/</loc>
     <lastmod>2019-11-30T07:59:23-08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -45,28 +94,7 @@
   </url>
   
   <url>
-    <loc>https://dakotah.pena.name/categories/</loc>
-    <lastmod>2019-11-30T20:53:12-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://dakotah.pena.name/categories/design/</loc>
-    <lastmod>2019-11-30T20:53:12-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://dakotah.pena.name/work/personal-calling-card/</loc>
-    <lastmod>2019-11-30T20:53:12-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://dakotah.pena.name/tags/</loc>
     <lastmod>2019-11-30T20:53:12-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -109,14 +137,14 @@
   
   <url>
     <loc>https://dakotah.pena.name/work/bike/</loc>
-    <lastmod>2019-11-30T19:06:39-08:00</lastmod>
+    <lastmod>2019-06-29T07:43:54-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://dakotah.pena.name/tags/industrial-design/</loc>
-    <lastmod>2019-11-30T19:06:39-08:00</lastmod>
+    <lastmod>2019-06-29T07:43:54-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
