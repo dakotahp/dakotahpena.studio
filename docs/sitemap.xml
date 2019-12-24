@@ -3,13 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://dakotah.pena.name/posts/</loc>
-    <lastmod>2019-08-07T20:54:09-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://dakotah.pena.name/work/</loc>
     <lastmod>2019-08-07T20:54:09-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -19,6 +12,13 @@
   <url>
     <loc>https://dakotah.pena.name/essays/</loc>
     <lastmod>2019-10-30T12:33:06-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://dakotah.pena.name/posts/</loc>
+    <lastmod>2019-08-07T20:54:09-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -74,7 +74,7 @@
   
   <url>
     <loc>https://dakotah.pena.name/essays/everyday-carry/</loc>
-    <lastmod>2019-11-30T07:59:23-08:00</lastmod>
+    <lastmod>2019-12-24T08:09:07-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
