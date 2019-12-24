@@ -7,11 +7,11 @@
 </div>
 
 <div class="grid-x">
-  <section class="cell small-8 blog-index-container">
+  <section class="cell small-8">
     {{ range (.Paginate ( first 10 .Pages.ByDate.Reverse )).Pages }}
         <article class="spacer-top-10">
           <div>
-            <h2 class="spacer-bottom-10"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <h2 class="spacer-bottom-10"><a href="{{ .RelPermalink }}" class="no-underline">{{ .Title }}</a></h2>
 
             {{ range .Resources.ByType "image" }}
               {{ $image := .Resize "300x q100" }}
