@@ -2,55 +2,93 @@
 title: "Everyday Carry"
 publishDate: 2019-08-08T21:44:36-07:00
 draft: false
-toc: false
+toc: true
 ---
 
 I like to think of the EDC (everyday carry) concept as prepping light. It’s the first small step towards being prepared for different situations.
 
-There are endless forums for seeing people’s kit and this essay is no different, albeit maybe with a little more context.
+There are endless forums for seeing people’s kit but this page aims to give some
+context to the decision making behind the items rather than just a consumerist
+show off. My kit is in a constant state of flux the page will be updated as
+changes are made.
 
-My kit is in a constant state of flux so this will be updated as changes are made.
+## On My Person
 
-## On my person
-### Pistol
+### Home-made Pocket Pouch
 
-I have no intention of leaving my own and my family’s lives up to chance in this day and age. Thus, carrying a firearm evens the fight in situations where criminals try to break the social contract.
+I got fed up with having to cull a collection of disparate items every time I left
+the house because I would sometimes put them in different places. Not finding any
+everyday-carry pouches that would fit the items I wanted to carry, I made my own
+from Cordura fabric.
 
-* Walther 9mm PPS-MQ 2 (Usually in warmer months)
-* Sig Sauer .357 SIG (Worn in winter due to it’s bulk)
-* Glock 20 10mm (Worn on hikes as hard-cast 10mm can be sufficient enough for Greenland Rangers to stop polar bear)
+It contains a few essentials:
 
-### Maxpedition Pocket Carry
-
-This little pocket pouch is a good solution to the problem when you’re leaving the house and having to cull all the things you need to carry in your pockets. Many of which, in my case, may not be in the same place.
-
-It’s not quite as small as it looks which can be good and bad. Stuff it with things and it will only be suitable for cargo pockets. Otherwise just keeping a small amount of the bare essentials allows it to slip into a pocket without it making it look like you’re robbing a bank of  their quarters.
-
-* Kershaw tanto blade knife
-* Zebra Z-01F
+* Kershaw tanto blade folding knife
+* Zebra Z-01F pen
 * Lip balm
-* Band-Aids
-* Nail clippers
+* [Olight S Mini CU flashlight](https://olightworld.com/led-flashlights/all-flashlights/olight-s-mini-cu)
 
 ### WANT Essentials de la Vie wallet
 
-This wallet isn’t any kind of life hack sort of thing, it was bought purely for fashion purposes. It’s not the kind of wallet that goes in a back pocket which is what I like about it. Zipping up securely is a feature I prefer in a wallet than folding varieties.
+It isn’t any kind of life hack sort of thing, it was bought purely for fashion
+purposes. It’s not the kind of wallet that goes in a back pocket which is what I
+like about it. Zipping up securely is a feature I prefer in a wallet than folding
+varieties.
 
-### Keys
+### Pistol
 
-#### FreeKey keyring
+Carrying a firearm can make criminals either rethink their ill intentions or
+prevent becoming a fish in a barrel during an active shooter situation.
+I have no intention of leaving my own and my family’s lives up to chance so I often
+carry a concealed carry sidearm on my person which varies depending on the season
+and circumstance.
 
+* Walther PPS-MQ II 9mm. Worn in warmer months due to the small size
+* Sig Sauer P320 .357 SIG. Worn in winter due to concealing easier under a jacket.
+* Glock 20 10mm. Worn on hikes because hard-cast 10mm is sufficient enough
+for Greenland Rangers to stop polar bear.
 
-* Pry bar
+### Multi-tool
 
-#### Remove Before Flight tag
+On weekends or during the week when I know I'm going to be doing something that
+would warrant it, I carry a Leatherman Wave multi-tool on my belt.
 
+## On My Keys
 
-#### Olight AAA flashlight
+### FreeKey keyring
 
-This was free with another flash light and is surprisingly great The brightness is shocking for it’s size and plenty for situations where you need a quick splash of light such as walking to your car at night.
+Every time I'd add or remove something from my key ring, it was a frustrating exercise.
+When I found the [FreeKey system](http://www.exotac.com/freekey-slim-system/), it
+was a breath of fresh air by comparison. In addition to being easy to add and remove
+items, the design of the master ring plus small accessory rings is a cleaner
+setup than a bunch of random daisy chained rings.
+
+### CountyComm Micro Widgy Pry Bar
+
+Small enough to not take up much space but with enough leverage to help pry open things,
+tear open boxes, and pick up gross things.
+
+### Remove Before Flight tag
+
+The tags are legitimately used at airports to denote things that need to be removed
+from their place before a flight takes off. I decided to put one on my keychain
+after being inspired by [Adam Savage](https://imgur.com/a/ZIjtE#TzELFmx) describing
+how they're useful for pulling keys out of your pocket and serving the function of
+a soft key fob without taking up any space.
+
+### Tiny flashlight
+
+The [Olight I3E EOS flashlight](https://olightworld.com/led-flashlights/all-flashlights/olight-i3e-eos-black) was free with another purchase and is surprisingly powerful. The brightness
+is shocking for it’s size and plenty for situations where you need a quick splash
+of light such as walking to your car at night.
 
 ## Weekday Bag
+
+My [Peak Design Everyday Backpack 20L](https://www.peakdesign.com/collections/everyday-bags/products/everyday-backpack?variant=29743300771884) is a prized possession due to
+the amount of things I can keep in it while still being considered a small backpack.
+I can store double the contents of a former cheap backpack without the organization
+that this bag has. The high cost is well worth it for something you will use every day.
+
 ## Weekend Bag
 ### Porter Heat waist/sling bag
 

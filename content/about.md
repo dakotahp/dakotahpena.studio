@@ -14,6 +14,8 @@ I like to [design things](/work).
 ### Random Facts
 
 - I'm a milk tea enthusiast
+- Studied fashion design and tailoring. Designed and sewed a small collection.
+- I think far too much about [the things I carry around with me](/essays/everyday-carry/).
 
 ## Leadership
 
