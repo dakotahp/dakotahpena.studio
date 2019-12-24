@@ -18,8 +18,12 @@ h6 {
   }
 }
 
-a.underline {
+a, a:visited, a:hover, a:active {
   text-decoration: underline;
+}
+
+a.no-underline {
+  text-decoration: none;
 }
 
 /*
