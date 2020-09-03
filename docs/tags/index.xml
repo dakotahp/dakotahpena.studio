@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Dakotah Peña</title>
-    <link>https://dakotah.pena.name/tags/</link>
+    <link>https://dakotahpena.studio/tags/</link>
     <description>Recent content in Tags on Dakotah Peña</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,105 +11,105 @@
     <copyright>© Dakotah Peña</copyright>
     <lastBuildDate>Tue, 24 Dec 2019 06:55:14 -0800</lastBuildDate>
     
-	<atom:link href="https://dakotah.pena.name/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dakotahpena.studio/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>print</title>
-      <link>https://dakotah.pena.name/tags/print/</link>
+      <link>https://dakotahpena.studio/tags/print/</link>
       <pubDate>Tue, 24 Dec 2019 06:55:14 -0800</pubDate>
       <author>dakotah@pena.name (Dakotah)</author>
-      <guid>https://dakotah.pena.name/tags/print/</guid>
+      <guid>https://dakotahpena.studio/tags/print/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ammo</title>
-      <link>https://dakotah.pena.name/tags/ammo/</link>
+      <link>https://dakotahpena.studio/tags/ammo/</link>
       <pubDate>Mon, 01 Jul 2019 18:20:47 -0700</pubDate>
       <author>dakotah@pena.name (Dakotah)</author>
-      <guid>https://dakotah.pena.name/tags/ammo/</guid>
+      <guid>https://dakotahpena.studio/tags/ammo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ammo can</title>
-      <link>https://dakotah.pena.name/tags/ammo-can/</link>
+      <link>https://dakotahpena.studio/tags/ammo-can/</link>
       <pubDate>Mon, 01 Jul 2019 18:09:41 -0700</pubDate>
       <author>dakotah@pena.name (Dakotah)</author>
-      <guid>https://dakotah.pena.name/tags/ammo-can/</guid>
+      <guid>https://dakotahpena.studio/tags/ammo-can/</guid>
       <description></description>
     </item>
     
     <item>
       <title>design</title>
-      <link>https://dakotah.pena.name/tags/design/</link>
+      <link>https://dakotahpena.studio/tags/design/</link>
       <pubDate>Sat, 29 Jun 2019 07:43:54 -0700</pubDate>
       <author>dakotah@pena.name (Dakotah)</author>
-      <guid>https://dakotah.pena.name/tags/design/</guid>
+      <guid>https://dakotahpena.studio/tags/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>industrial design</title>
-      <link>https://dakotah.pena.name/tags/industrial-design/</link>
+      <link>https://dakotahpena.studio/tags/industrial-design/</link>
       <pubDate>Sat, 29 Jun 2019 07:43:54 -0700</pubDate>
       <author>dakotah@pena.name (Dakotah)</author>
-      <guid>https://dakotah.pena.name/tags/industrial-design/</guid>
+      <guid>https://dakotahpena.studio/tags/industrial-design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>web design</title>
-      <link>https://dakotah.pena.name/tags/web-design/</link>
+      <link>https://dakotahpena.studio/tags/web-design/</link>
       <pubDate>Sat, 29 Jun 2019 07:43:54 -0700</pubDate>
       <author>dakotah@pena.name (Dakotah)</author>
-      <guid>https://dakotah.pena.name/tags/web-design/</guid>
+      <guid>https://dakotahpena.studio/tags/web-design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>web development</title>
-      <link>https://dakotah.pena.name/tags/web-development/</link>
+      <link>https://dakotahpena.studio/tags/web-development/</link>
       <pubDate>Sat, 29 Jun 2019 07:43:54 -0700</pubDate>
       <author>dakotah@pena.name (Dakotah)</author>
-      <guid>https://dakotah.pena.name/tags/web-development/</guid>
+      <guid>https://dakotahpena.studio/tags/web-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cellular</title>
-      <link>https://dakotah.pena.name/tags/cellular/</link>
+      <link>https://dakotahpena.studio/tags/cellular/</link>
       <pubDate>Mon, 01 Jun 2015 17:44:14 -0800</pubDate>
       <author>dakotah@pena.name (Dakotah)</author>
-      <guid>https://dakotah.pena.name/tags/cellular/</guid>
+      <guid>https://dakotahpena.studio/tags/cellular/</guid>
       <description></description>
     </item>
     
     <item>
       <title>communication</title>
-      <link>https://dakotah.pena.name/tags/communication/</link>
+      <link>https://dakotahpena.studio/tags/communication/</link>
       <pubDate>Mon, 01 Jun 2015 17:44:14 -0800</pubDate>
       <author>dakotah@pena.name (Dakotah)</author>
-      <guid>https://dakotah.pena.name/tags/communication/</guid>
+      <guid>https://dakotahpena.studio/tags/communication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>FaceTime</title>
-      <link>https://dakotah.pena.name/tags/facetime/</link>
+      <link>https://dakotahpena.studio/tags/facetime/</link>
       <pubDate>Mon, 01 Jun 2015 17:44:14 -0800</pubDate>
       <author>dakotah@pena.name (Dakotah)</author>
-      <guid>https://dakotah.pena.name/tags/facetime/</guid>
+      <guid>https://dakotahpena.studio/tags/facetime/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ting</title>
-      <link>https://dakotah.pena.name/tags/ting/</link>
+      <link>https://dakotahpena.studio/tags/ting/</link>
       <pubDate>Mon, 01 Jun 2015 17:44:14 -0800</pubDate>
       <author>dakotah@pena.name (Dakotah)</author>
-      <guid>https://dakotah.pena.name/tags/ting/</guid>
+      <guid>https://dakotahpena.studio/tags/ting/</guid>
       <description></description>
     </item>
     

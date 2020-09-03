@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>print on Dakotah Peña</title>
-    <link>https://dakotah.pena.name/tags/print/</link>
+    <link>https://dakotahpena.studio/tags/print/</link>
     <description>Recent content in print on Dakotah Peña</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -11,15 +11,15 @@
     <copyright>© Dakotah Peña</copyright>
     <lastBuildDate>Tue, 24 Dec 2019 06:55:14 -0800</lastBuildDate>
     
-	<atom:link href="https://dakotah.pena.name/tags/print/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dakotahpena.studio/tags/print/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Human Fund Card</title>
-      <link>https://dakotah.pena.name/work/human-fund-card/</link>
+      <link>https://dakotahpena.studio/work/human-fund-card/</link>
       <pubDate>Tue, 24 Dec 2019 06:55:14 -0800</pubDate>
       <author>dakotah@pena.name (Dakotah)</author>
-      <guid>https://dakotah.pena.name/work/human-fund-card/</guid>
+      <guid>https://dakotahpena.studio/work/human-fund-card/</guid>
       <description>A donation has been made in your name to The Human Fund.
  This is my interpretation of the infamous Human Fund Charity from a Seinfeld episode. Give out this card for Christmas when you are too cheap to buy anyone gifts à la George Costanza.</description>
     </item>
