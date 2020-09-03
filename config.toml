@@ -8,11 +8,11 @@ enableGitInfo = true
 
 [author]
   name = "Dakotah"
-  email = "dakotah@pena.name"
+  email = "dakotah@hey.com"
 
 [params]
   author = "Dakotah"
-  contactEmail = "dakotah@pena.name"
+  contactEmail = "dakotah@hey.com"
   dateFormat = "Jan 2, 2006"
   description = "Dakotah Peña, maker."
   images = ["site-feature-image.jpg"]
