@@ -9,11 +9,7 @@
     <managingEditor>dakotah@hey.com (Dakotah)</managingEditor>
     <webMaster>dakotah@hey.com (Dakotah)</webMaster>
     <copyright>© Dakotah Peña</copyright>
-    <lastBuildDate>Tue, 24 Dec 2019 06:55:14 -0800</lastBuildDate>
-    
-	<atom:link href="https://dakotahpena.studio/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 24 Dec 2019 06:55:14 -0800</lastBuildDate><atom:link href="https://dakotahpena.studio/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>design</title>
       <link>https://dakotahpena.studio/categories/design/</link>
