@@ -1,7 +1,7 @@
-# Personal Website
+# dakotahpena.studio
 
 This site is built using [Hugo](https://gohugo.io/). To build the site for
-deployment run `hugo`.
+deployment, run `hugo`.
 
 ## Development
 
