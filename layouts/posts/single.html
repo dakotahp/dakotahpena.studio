@@ -12,13 +12,13 @@
     <h1 class="spacer-top-5">{{ .Title }}</h1>
 
     <div class="post__meta">
-      <time datetime="{{ .Date }}">{{- .Date.Format (.Site.Params.dateFormat) -}}</time>
-      {{ if .Lastmod }}
-        &middot;
-        <em>
-          Edited <time datetime="{{ .Lastmod }}">{{- .Lastmod.Format (.Site.Params.dateFormat) -}}</time>
-        </em>
-      {{ end }}
+      <time datetime="{{ .Date }}">
+        {{- .Date.Format (.Site.Params.dateFormat) -}}
+      </time>
+
+      &middot;
+
+      <span>{{ .ReadingTime }} minute read</span>
     </div>
 
     <article class="post__content spacer-top-10">{{ .Content }}</article>
