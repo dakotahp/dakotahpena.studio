@@ -1,3 +1,24 @@
+/*
+ * Blog index page
+*/
+
+.posts__container {
+  time {
+    color: $gray;
+  }
+
+  h2 {
+    margin-top: .5rem;
+  }
+
+  .link__read_more {
+    margin-bottom: 2rem;
+  }
+}
+
+/*
+ * Blog post page
+*/
 .post__container {
   article {
     h1, h2, h3 {
