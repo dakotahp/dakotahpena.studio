@@ -5,6 +5,7 @@ draft: false
 menu: "blog"
 categories: ["Productivity"]
 tags: ["memory", "apps", "to-do"]
+description: "Use apps to get information out of your head and relieve your short term memory from overuse."
 ---
 
 I would wager that taking a shower and brushing your teeth are not something you think about. They are autonomous and there is no chance that you would forget to do them.

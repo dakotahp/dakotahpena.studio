@@ -5,6 +5,7 @@ draft: false
 menu: "blog"
 categories: ["Tech"]
 tags: ["self-hosting", "docker", "off the grid", "privacy", "Make Less Data"]
+description: "How to self-host Miniflux feed reader with Docker."
 ---
 
 _This is the first in [a series about self-hosted services](/tags/make-less-data/) that you can run yourself in order for you to be less of a product of other companies.  This means you will be creating less marketable data for these companies and likely saving money in the process._
