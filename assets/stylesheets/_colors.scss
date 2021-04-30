@@ -15,19 +15,7 @@ $text-kinda-muted-color: hsla(300, 0%, 17%, 0.75);
 $text-muted-color: #5f5e5f;
 $text-very-muted-color: #9fa0a0;
 
-$background-color: #fff;
 $default-text-color: hsla(0, 0%, 15%, 0.98);
-
-body,
-.callout,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: $default-text-color;
-}
 
 #hero h2 {
   color: $text-kinda-muted-color;

@@ -1,5 +1,44 @@
-body {
-  background-color: $background-color;
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(35, 35, 35);
+    color: rgb(220, 220, 220);
+  }
+
+  body,
+  .callout,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: rgb(220, 220, 220);
+  }
+
+  #footer {
+    background-color: rgb(50, 50, 50);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+
+  body,
+  .callout,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: rgb(20, 20, 20);
+  }
+
+  #footer {
+    background-color: hsl(0, 0%, 92%);
+  }
 }
 
 #header {
@@ -50,8 +89,6 @@ hr {
 }
 
 #footer {
-  background-color: hsl(0, 0%, 92%);
-
   a, a:visited, a:active {
     color: $text-very-muted-color;
     text-decoration: underline;
