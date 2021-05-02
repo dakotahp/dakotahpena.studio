@@ -5,7 +5,7 @@
     <h1>Tags</h1>
     <article class="spacer-top-10">
       <ul class="inline">
-        {{ range (.Paginate ( first 10 .Pages.ByDate.Reverse )).Pages }}
+        {{ range .Pages }}
           <li class="spacer-right-4">
             <a href="{{ .RelPermalink }}" class="no-underline">{{ .Title }}</a>
           </li>
