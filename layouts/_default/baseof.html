@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="{{ .Site.Language.LanguageDirection | default "ltr" }}" lang="{{- site.Language.Lang -}}" >
   <head>
     <meta charset="utf-8">
     <title>{{ .Title }} | Dakotah Peña</title>
@@ -11,14 +11,22 @@
     {{ .Hugo.Generator }}
     {{ .Hugo.CommitHash }}
     {{ .Hugo.BuildDate }}
-
-    {{- with .OutputFormats.Get "RSS" -}}
+    <link rel="canonical" href="{{ .RelPermalink }}">
+    {{ with .OutputFormats.Get "RSS" }}
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end }}
 
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/foundation.css">
-    {{ $style := resources.Get "stylesheets/app.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
+
+    {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" true) }}
+    {{ $style := resources.Get "stylesheets/app.scss" | resources.ToCSS $options | resources.Fingerprint }}
+    <link
+      rel="stylesheet"
+      integrity="{{ $style.Data.Integrity }}"
+      href="{{ $style.RelPermalink }}"
+      crossorigin="anonymous"
+      type="text/css"
+    >
 
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
