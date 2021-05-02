@@ -15,6 +15,14 @@
     color: rgb(220, 220, 220);
   }
 
+  a,
+  a:visited,
+  a:active {
+    &:not(.button) {
+      color: rgb(220, 220, 220);
+    }
+  }
+
   #footer {
     background-color: rgb(50, 50, 50);
   }
@@ -34,6 +42,14 @@
   h5,
   h6 {
     color: rgb(20, 20, 20);
+  }
+
+  a,
+  a:visited,
+  a:active {
+    &:not(.button) {
+      color: $link-color;
+    }
   }
 
   #footer {
@@ -68,10 +84,6 @@
 a,
 a:visited,
 a:active {
-  &:not(.button) {
-    color: $link-color;
-  }
-
   text-decoration: none;
 }
 
