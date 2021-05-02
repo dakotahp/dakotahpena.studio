@@ -1,0 +1,1 @@
+server: hugo server --watch
