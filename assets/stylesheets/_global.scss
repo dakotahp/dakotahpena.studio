@@ -23,6 +23,24 @@
     }
   }
 
+  #logo g {
+    fill: rgb(220, 220, 220);
+  }
+
+  /* Nav links */
+  #primary-nav {
+    a,
+    a:visited,
+    a:active {
+      color: rgb(200, 200, 200);
+    }
+  }
+
+  /* Homepage text */
+  #hero h2 {
+    color: $text-kinda-muted-color;
+  }
+
   #footer {
     background-color: rgb(50, 50, 50);
   }
@@ -52,6 +70,23 @@
     }
   }
 
+  #logo g {
+    fill: rgb(20, 20, 20);
+  }
+
+  #primary-nav {
+    a,
+    a:visited,
+    a:active {
+      color: #5f5e5f;
+    }
+  }
+
+  /* Homepage text */
+  #hero h2 {
+    color: $text-kinda-muted-color;
+  }
+
   #footer {
     background-color: hsl(0, 0%, 92%);
   }
@@ -72,7 +107,6 @@
   a,
   a:visited,
   a:active {
-    color: #5f5e5f;
     text-decoration: none;
   }
 
