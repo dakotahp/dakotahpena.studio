@@ -9,7 +9,7 @@
 <div class="grid-x post__container">
   <section class="cell small-8 medium-offset-2">
 
-    <h1 class="spacer-top-5">{{ .Title }}</h1>
+    <h1 class="post__title spacer-top-5">{{ .Title }}</h1>
 
     <div class="post__meta">
       <time datetime="{{ .Date }}">
@@ -28,10 +28,16 @@
     <hr>
 
     <div class="meta">
-      Filed under
-      {{ range .Params.categories }}
-        <a href="/categories/{{ lower . }}/">{{ . }}</a>
-      {{end}}
+      <span>
+        Filed under
+        {{ range .Params.categories }}
+          <a href="/categories/{{ lower . }}/">{{ . }}</a>
+        {{- end -}},
+        tagged with
+        {{ range .Params.tags }}
+          <a href="/categories/{{ lower . }}/">{{ . }}</a>
+        {{- end -}}.
+      </span>
     </div>
   </section>
 

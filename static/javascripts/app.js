@@ -23,9 +23,7 @@ if (currentTheme == "dark") {
 btn.addEventListener("click", function() {
   // If the user's OS setting is dark and matches our .dark-mode class...
   if (prefersDarkScheme.matches) {
-    console.log("toggling light mode…")
     // ...then toggle the light mode class
-    // document.body.classList.remove("dark-mode");
     document.body.classList.toggle("light-mode");
 
     // ...but use .dark-mode if the .light-mode class is already on the body,
