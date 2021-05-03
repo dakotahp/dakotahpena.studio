@@ -3,6 +3,10 @@
 */
 
 .posts__container {
+  .post__content {
+    font-family: "Mercury Text", Georgia, "Times New Roman", sans-serif;
+  }
+
   time {
     color: $gray;
   }
@@ -21,6 +25,7 @@
 */
 .post__container {
   font-size: 1.5rem;
+  p { font-size: 1.5rem; }
 
   article {
     h1, h2, h3 { margin-top: 45px; }
@@ -35,7 +40,6 @@
     margin: 0 10px 0 0;
   }
 
-  .blog-post-meta,
   .post__meta {
     color: $gray;
   }
@@ -46,6 +50,13 @@
 
   .photo__photo {
     float: right;
+  }
+}
+
+.post__container,
+.posts__container {
+  .post__content {
+    font-family: "Mercury Text", Georgia, "Times New Roman", sans-serif;
   }
 }
 

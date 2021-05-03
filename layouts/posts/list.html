@@ -7,19 +7,22 @@
 </div>
 
 <div class="grid-x posts__container">
-  <section class="cell small-8 large-offset-2 medium-offset-2">
+  <section class="post__container cell small-8 large-offset-2 medium-offset-2">
     {{ range (.Paginate ( first 10 .Pages.ByDate.Reverse )).Pages }}
-      <article class="spacer-top-10">
-        <div>
-          <time datetime="{{ .Date }}">
-            {{- .Date.Format (.Site.Params.dateFormat) -}}
-          </time>
-          <h2><a href="{{ .RelPermalink }}" class="no-underline">{{ .Title }}</a></h2>
+      <article class="post__content spacer-top-10">
+        <time datetime="{{ .Date }}">
+          {{- .Date.Format (.Site.Params.dateFormat) -}}
+        </time>
 
-          <p>
-            {{ .Summary }}
-          </p>
-        </div>
+        <h1 class="post__title spacer-top-5">
+          <a href="{{ .RelPermalink }}" class="no-underline">
+            {{ .Title }}
+          </a>
+        </h1>
+
+        <p>
+          {{ .Summary }}
+        </p>
 
         {{ if .Truncated }}
           <div class="spacer-top-4 spacer-bottom-15">
