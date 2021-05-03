@@ -1,6 +1,10 @@
+/*
+* Dark Mode
+*/
+
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: rgb(35, 35, 35);
+    background-color: rgb(35, 34, 39);
     color: rgb(220, 220, 220);
   }
 
@@ -46,6 +50,59 @@
   }
 }
 
+body.dark-mode {
+  background-color: rgb(35, 35, 35);
+  color: rgb(220, 220, 220);
+
+  .callout,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: rgb(220, 220, 220);
+  }
+
+  a,
+  a:visited,
+  a:active {
+    &:not(.button) {
+      color: rgb(220, 220, 220);
+    }
+  }
+
+  #logo g {
+    fill: rgb(220, 220, 220);
+  }
+
+  /* Nav links */
+  #primary-nav {
+    a,
+    a:visited,
+    a:active {
+      color: rgb(200, 200, 200);
+    }
+  }
+
+  /* Homepage text */
+  #hero h2 {
+    color: $text-kinda-muted-color;
+  }
+
+  #footer {
+    background-color: rgb(50, 50, 50);
+  }
+}
+
+/*
+* End Dark Mode
+*/
+
+/*
+* Light Mode
+*/
+
 @media (prefers-color-scheme: light) {
   body {
     background-color: rgb(255, 255, 255);
@@ -53,6 +110,7 @@
 
   body,
   .callout,
+  p,
   h1,
   h2,
   h3,
@@ -91,6 +149,54 @@
     background-color: hsl(0, 0%, 92%);
   }
 }
+
+body.light-mode {
+  background-color: rgb(255, 255, 255);
+
+  .callout,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: rgb(20, 20, 20);
+  }
+
+  a,
+  a:visited,
+  a:active {
+    &:not(.button) {
+      color: $link-color;
+    }
+  }
+
+  #logo g {
+    fill: rgb(20, 20, 20);
+  }
+
+  #primary-nav {
+    a,
+    a:visited,
+    a:active {
+      color: #5f5e5f;
+    }
+  }
+
+  /* Homepage text */
+  #hero h2 {
+    color: $text-kinda-muted-color;
+  }
+
+  #footer {
+    background-color: hsl(0, 0%, 92%);
+  }
+}
+
+/*
+ * End Light Mode
+*/
 
 #header {
   margin-top: 50px;
@@ -131,7 +237,7 @@ a:active {
 }
 
 hr {
-  border-bottom: 1px solid #9fa84a;
+  border-bottom: 1px solid #808080;
 }
 
 #footer {

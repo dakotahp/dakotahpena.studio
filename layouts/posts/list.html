@@ -15,7 +15,10 @@
             {{- .Date.Format (.Site.Params.dateFormat) -}}
           </time>
           <h2><a href="{{ .RelPermalink }}" class="no-underline">{{ .Title }}</a></h2>
-          {{ .Summary }}
+
+          <p>
+            {{ .Summary }}
+          </p>
         </div>
 
         {{ if .Truncated }}
