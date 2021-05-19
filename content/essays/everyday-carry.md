@@ -35,19 +35,6 @@ purposes. It’s not the kind of wallet that goes in a back pocket which is what
 like about it. Zipping up securely is a feature I prefer in a wallet than folding
 varieties.
 
-### Pistol
-
-Carrying a firearm can make criminals either rethink their ill intentions or
-prevent becoming a fish in a barrel during an active shooter situation.
-I have no intention of leaving my own and my family’s lives up to chance so I often
-carry a concealed carry sidearm on my person which varies depending on the season
-and circumstance.
-
-* Walther PPS-MQ II 9mm. Worn in warmer months due to the small size
-* Sig Sauer P320 .357 SIG. Worn in winter due to concealing easier under a jacket.
-* Glock 20 10mm. Worn on hikes because hard-cast 10mm is sufficient enough
-for Greenland Rangers to stop polar bear.
-
 ### Multi-tool
 
 On weekends or during the week when I know I'm going to be doing something that
