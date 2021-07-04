@@ -10,8 +10,8 @@
     <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
     <meta name="color-scheme" content="dark light">
     {{ .Hugo.Generator }}
-    {{ .Hugo.CommitHash }}
-    {{ .Hugo.BuildDate }}
+    <meta name="commit-hash" content="{{ .Hugo.CommitHash }}">
+    <meta name="build-date" content="{{ .Hugo.BuildDate }}">
     <link rel="canonical" href="{{ .RelPermalink }}">
     {{ with .OutputFormats.Get "RSS" }}
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
