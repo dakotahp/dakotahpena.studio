@@ -1,0 +1,17 @@
+{
+  "name": "dakotahpena.studio",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "engineStrict": false,
+  "engines": {
+    "node": "16.0.0",
+    "npm": "7.10.0"
+  },
+  "devDependencies": {
+    "cypress": "^8.0.0",
+    "cypress-plugin-snapshots": "^1.4.4"
+  },
+  "scripts": {
+    "cypress:open": "cypress open"
+  }
+}

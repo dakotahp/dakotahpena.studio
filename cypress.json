@@ -1,0 +1,19 @@
+{
+  "defaultCommandTimeout": 8000,
+  "includeShadowDom": false,
+  "baseUrl": "http://localhost:1313",
+  "ignoreTestFiles": [
+    "**/__snapshots__/*",
+    "**/__image_snapshots__/*"
+  ],
+  "env": {
+    "cypress-plugin-snapshots": {
+      "imageConfig": {
+        "createDiffImage": true,
+        "resizeDevicePixelRatio": true,
+        "threshold": 1,
+        "thresholdType": "pixel"
+      }
+    }
+  }
+}
