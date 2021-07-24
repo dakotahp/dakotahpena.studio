@@ -38,6 +38,8 @@ module.exports = (on, config) => {
       // fullPage screenshot size is 1400x1200
       launchOptions.preferences.width = 1400
       launchOptions.preferences.height = 1200
+      launchOptions.args.width = 1400;
+      launchOptions.args.height = 1200;
     }
 
     if (browser.name === 'firefox') {
