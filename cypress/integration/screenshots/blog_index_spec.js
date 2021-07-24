@@ -2,7 +2,7 @@ describe('Test blog index', () => {
   it('matches expected in day mode', () => {
     cy.visit('/posts/')
       .then(() => {
-        cy.get('body').toMatchImageSnapshot();
+        cy.get('body').toMatchImageSnapshot({screenshotConfig: {capture: 'fullPage'}});
       });
   });
 
@@ -10,7 +10,7 @@ describe('Test blog index', () => {
     cy.selectDarkMode()
     cy.visit('/posts/')
       .then(() => {
-        cy.get('body').toMatchImageSnapshot();
+        cy.get('body').toMatchImageSnapshot({screenshotConfig: {capture: 'fullPage'}});
       });
   });
 });
