@@ -8,6 +8,7 @@
   ],
   "env": {
     "cypress-plugin-snapshots": {
+      "autoCleanUp": true,
       "imageConfig": {
         "createDiffImage": true,
         "resizeDevicePixelRatio": true,

@@ -21,7 +21,7 @@ jobs:
       - name: Run cypress tests
         uses: cypress-io/github-action@v2
         with:
-          browser: chrome
+          browser: electron
       - name: Tar logs
         if: failure()
         run: tar cvzf ./logs.tgz ./logs
@@ -37,4 +37,3 @@ jobs:
         with:
           name: cypress-screenshots
           path: cypress/screenshots
-

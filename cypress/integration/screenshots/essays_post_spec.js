@@ -1,6 +1,6 @@
-describe('Test homepage', () => {
+describe('Test essays post', () => {
   it('matches expected in day mode', () => {
-    cy.visit('/')
+    cy.visit('/essays/everyday-carry/')
       .then(() => {
         cy.get('body').toMatchImageSnapshot();
       });
@@ -8,7 +8,7 @@ describe('Test homepage', () => {
 
   it('matches expected in dark mode', () => {
     cy.selectDarkMode()
-    cy.visit('/')
+    cy.visit('/essays/everyday-carry/')
       .then(() => {
         cy.get('body').toMatchImageSnapshot();
       });
