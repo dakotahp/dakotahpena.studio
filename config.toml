@@ -16,6 +16,7 @@ enableGitInfo = true
   dateFormat = "Jan 2, 2006"
   description = "Dakotah Peña, maker."
   images = ["site-feature-image.jpg"]
+  analyticsId = "38de2090-4acb-41c8-a9ea-38688ebbb8ab"
 
 [sitemap]
   changefreq = "monthly"
