@@ -6,6 +6,11 @@ publishDir = "docs"
 copyright = "© Dakotah Peña"
 enableGitInfo = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [author]
   name = "Dakotah"
   email = "hey@dakotahpena.studio"
