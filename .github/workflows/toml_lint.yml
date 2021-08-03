@@ -1,0 +1,13 @@
+name: Lint
+on: [push]
+jobs:
+  run-linters:
+    name: Lint TOML config file
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+
+      - name: TOML linter
+        uses: yisonPylkita/gh-action-toml-linter@0.1.3
