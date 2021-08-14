@@ -18,7 +18,7 @@ It isn't every day that somebody changes their phone number. But the usual rigam
 
 ## 1Password to the Rescue
 
-If you use a password manager like [1Password](https://1password.com/), and you _should_, you can add tags to each login that uses SMS 2FA to quickly identify these services that will need to have the 2FA disabled prior to changing your phone number, lest you lose access to them.
+If you use a password manager like <span id="cite_ref_1">1Password</span>[<sup>[1]</sup>](#cite_note_1), and you _should_, you can add tags to each login that uses SMS 2FA to quickly identify these services that will need to have the 2FA disabled prior to changing your phone number, lest you lose access to them.
 
 <img
   src="/img/posts/2021-08/1password@2x.png"
@@ -29,3 +29,12 @@ If you use a password manager like [1Password](https://1password.com/), and you 
 While it may seem like more work than is necessary, you may thank your future self if you ever need to suddenly change your phone number. Furthermore, 2FA increases your security online while also increasing the chances of irrecovably losing access to your information. Treating it with respect and doing everything you can to never lose access to any of your authentication factors (e.g. password, SMS codes, TOTP codes) will serve you well.
 
 _Postscript: You can do a similar thing by tagging any logins that use a security key such as a Yubikey. If you were to lose one or more of your Yubikeys then you have a manifest of all services that are using them._
+
+## References
+
+<ol>
+  <li id="cite_note_1">
+    <a href="https://1password.com/">1Password</a>
+    <a href="#cite_ref_1" class="rl" title="Scroll up to reference">⤴️</a>
+  </li>
+</ol>
