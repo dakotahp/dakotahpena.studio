@@ -12,11 +12,11 @@ _This is the first in [a series about self-hosted services](/tags/make-less-data
 
 The shutdown of Google Reader years ago sent ripples across the internet as there was now room for competition in the form of small, paid feed reading services like Feedbin. Having been a customer of Feedbin for several years and being happy with it, I nevertheless decided to explore options for self hosting an RSS reader service as an exercise of being more self sufficient. It is even more incentive that as more apps and services become subscription-based, I wanted to reduce my growing number of recurring software subscriptions as much as possible.
 
-While there will be many different open source web applications that can be chosen from, I decided on [Miniflux](https://miniflux.app/) due to its focus on minimalism and simplicity feature-wise without being austere or ugly. Another benefit is that being written in Go, it means the interactions are near instantaneous. Finally, you can subscribe to YouTube channels to reduce being tracked by Google because it uses the more private `youtube-nocookie.com` domain for the video player.
+While there will be many different open source web applications that can be chosen from, I decided on <span id="cite_ref_1">Miniflux</span>[<sup>[1]</sup>](#cite_note_1) due to its focus on minimalism and simplicity feature-wise without being austere or ugly. Another benefit is that being written in Go, it means the interactions are near instantaneous. Finally, you can subscribe to YouTube channels to reduce being tracked by Google because it uses the more private `youtube-nocookie.com` domain for the video player.
 
 ## Docker Overview
 
-If you don't already have Docker installed you will need to [install it](https://www.docker.com/products/docker-desktop) first. It is available for many operating systems and can be installed headless with package managers like homebrew, apt, and others.
+If you don't already have Docker installed you will need to <span id="cite_ref_2">install it</span>[<sup>[2]</sup>](#cite_note_2) first. It is available for many operating systems and can be installed headless with package managers like homebrew, apt, and others.
 
 _Docker is similar to a virtual machine on your computer or server. It allows for containment of code and services so you don’t have to install, say, a database directly on your computer. It runs contained and is configured through a `docker-compose.yml` with little effort._
 
@@ -72,7 +72,7 @@ Now you can start everything up with `docker-compose up -d` where the `-d` will 
 
 You should be able to try out Miniflux at `http://localhost:8080` and log in with the credentials in your `.env` file. Don't forget to change your password.
 
-If all goes well you will be up and running with Miniflux and be able to start adding RSS and Atom feeds to it and even YouTube channel URLs. If you have any trouble you can refer to the [official documentation](https://miniflux.app/docs/installation.html#docker).
+If all goes well you will be up and running with Miniflux and be able to start adding RSS and Atom feeds to it and even YouTube channel URLs. If you have any trouble you can refer to the <span id="cite_ref_3">official documentation</span>[<sup>[3]</sup>](#cite_note_3).
 
 ## Clean Up
 
@@ -89,10 +89,35 @@ ports:
 
 The port values start from the outside in with the first `8080` representing what is exposed to your system. If you were to change it to `3000` it would look like `"3000:8080"` and be available at [http://localhost:3000](http://localhost:3000). Lower number ports like 80 (which would allow [http://localhost/](http://localhost/) are privileged ports on most systems and require hoops to jump through to get working.
 
-If you insist on using port 80 then the easier option is adding a reverse proxy web server in front of it like [Caddy](https://caddyserver.com/) or [Nginx](https://nginx.org/en/) but this is beyond the scope of this article.
+If you insist on using port 80 then the easier option is adding a reverse proxy web server in front of it like <span id="cite_ref_4">Caddy</span>[<sup>[4]</sup>](#cite_note_4) or <span id="cite_ref_5">Nginx</span>[<sup>[5]</sup>](#cite_note_5)but this is beyond the scope of this article.
 
 ## Summary
 
 You should now have Miniflux running on the machine you chose to install it on. It is fine to run on your personal computer but running it on a separate server (Raspberry Pi, Synology, VPS) is a nice upgrade because you can access it from anywhere, provided you have a domain name to use.
 
 More importantly, you are now more self-sufficient and generating less marketable data for other services to track you from.
+
+## References
+
+<ol>
+  <li id="cite_note_1">
+    <a href="https://miniflux.app/">Miniflux</a>
+    <a href="#cite_ref_1" class="rl" title="Scroll up to reference">⤴️</a>
+  </li>
+  <li id="cite_note_2">
+    <a href="https://www.docker.com/products/docker-desktop">Install Docker Desktop</a>
+    <a href="#cite_ref_2" class="rl" title="Scroll up to reference">⤴️</a>
+  </li>
+  <li id="cite_note_3">
+    <a href="https://miniflux.app/docs/installation.html#docker">Miniflux installation instructions</a>
+    <a href="#cite_ref_3" class="rl" title="Scroll up to reference">⤴️</a>
+  </li>
+  <li id="cite_note_4">
+    <a href="https://caddyserver.com/">Caddy Server</a>
+    <a href="#cite_ref_4" class="rl" title="Scroll up to reference">⤴️</a>
+  </li>
+  <li id="cite_note_5">
+    <a href="https://nginx.org/en/">Nginx Server</a>
+    <a href="#cite_ref_5" class="rl" title="Scroll up to reference">⤴️</a>
+  </li>
+</ol>
