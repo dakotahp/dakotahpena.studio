@@ -1,0 +1,8 @@
+{
+  auto_https off
+}
+
+:1313 {
+  root * /usr/share/caddy/
+  file_server
+}
