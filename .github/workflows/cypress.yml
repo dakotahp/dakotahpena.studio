@@ -18,6 +18,8 @@ jobs:
         run: hugo
       - name: Run static web server
         run: docker run -d -p 1313:1313 -v $PWD/docs/:/usr/share/caddy/ -v caddy_data:/data -v $PWD/Caddyfile:/etc/caddy/Caddyfile caddy
+      - name: Install Node dependencies
+        run: npm install
       - name: Run a11y tests
         uses: cypress-io/github-action@v2
         with:
