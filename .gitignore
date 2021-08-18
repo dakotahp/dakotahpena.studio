@@ -1,4 +1,4 @@
 node_modules/
 docs/
-cypress/accessibility/screenshots/
-cypress/accessibility/videos/
+cypress_results/accessibility/screenshots/
+cypress_results/accessibility/videos/
