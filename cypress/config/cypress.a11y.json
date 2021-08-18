@@ -1,0 +1,10 @@
+{
+  "defaultCommandTimeout": 8000,
+  "baseUrl": "http://localhost:1313/",
+  "integrationFolder": "cypress/accessibility/",
+  "supportFile":"cypress/support/accessibility/index.js",
+  "screenshotsFolder": "cypress_results/accessibility/screenshots",
+  "videosFolder": "cypress_results/accessibility/videos",
+  "pluginsFile": "cypress/plugins/index.js",
+  "videoCompression": false
+}

@@ -9,9 +9,12 @@
   },
   "devDependencies": {
     "cypress": "^8.0.0",
+    "cypress-axe": "^0.13.0",
     "cypress-plugin-snapshots": "^1.4.4"
   },
   "scripts": {
+    "cypress:a11y:open": "cypress open -C ./cypress/config/cypress.a11y.json",
+    "cypress:a11y:run": "cypress run -C ./cypress/config/cypress.a11y.json",
     "cypress:open": "cypress open"
   }
 }
