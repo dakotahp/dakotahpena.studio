@@ -37,7 +37,7 @@ jobs:
         if: failure()
         with:
           name: cypress-screenshots
-          path: cypress/screenshots
+          path: cypress/accessibility/screenshots
   # screenshot:
   #   name: Run Cypress tests
   #   runs-on: ubuntu-latest
