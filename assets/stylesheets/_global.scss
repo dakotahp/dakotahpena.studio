@@ -48,11 +48,21 @@
     color: #dcdcdc;
   }
 
+  .download-source-group {
+    span, a {
+      color: $dark-mode-text-muted-color;
+
+      &:link {
+        color: $dark-mode-text-muted-color;
+      }
+    }
+  }
+
   #footer {
     background-color: rgb(50, 50, 50);
 
     h4 {
-      color: #C2C1C2;
+      color: $dark-mode-text-muted-color;
     }
   }
 }
@@ -100,11 +110,21 @@ body.dark-mode {
     color: #dcdcdc;
   }
 
+  .download-source-group {
+    span, a {
+      color: $dark-mode-text-muted-color;
+
+      &:link {
+        color: $dark-mode-text-muted-color;
+      }
+    }
+  }
+
   #footer {
     background-color: rgb(50, 50, 50);
 
     h4 {
-      color: #C2C1C2;
+      color: $dark-mode-text-muted-color;
     }
   }
 }
@@ -161,6 +181,16 @@ body.dark-mode {
     color: $text-kinda-muted-color;
   }
 
+  .download-source-group {
+    span, a {
+      color: $light-mode-text-muted-color;
+
+      &:link {
+        color: $light-mode-text-muted-color;
+      }
+    }
+  }
+
   #footer {
     background-color: hsl(0, 0%, 92%);
   }
@@ -205,6 +235,16 @@ body.light-mode {
   /* Homepage text */
   #hero h2 {
     color: $text-kinda-muted-color;
+  }
+
+  .download-source-group {
+    span, a {
+      color: $light-mode-text-muted-color;
+
+      &:link {
+        color: $light-mode-text-muted-color;
+      }
+    }
   }
 
   #footer {
