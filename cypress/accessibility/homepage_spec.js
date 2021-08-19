@@ -1,9 +1,11 @@
 describe('Homepage accessibility', () => {
-  it('loads successfully', () => {
-    cy.a11yVisit('/');
+  it('Light mode has no accessibility violations', () => {
+    cy.visitInLightMode('/');
+    cy.a11yCheck();
   });
 
-  it('has no accessibility violations', () => {
+  it('Dark mode has no accessibility violations', () => {
+    cy.visitInDarkMode('/');
     cy.a11yCheck();
   });
 });

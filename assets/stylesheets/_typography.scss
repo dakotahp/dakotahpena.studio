@@ -44,12 +44,7 @@ a.no-underline {
 .download-source-group {
   button { margin-right: 15px; }
   span, a {
-    color: $text-muted-color;
     vertical-align: super;
-
-    &:link {
-      color: $text-muted-color;
-    }
   }
 }
 

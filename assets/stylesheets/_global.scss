@@ -48,8 +48,26 @@
     color: #dcdcdc;
   }
 
+  .download-source-group {
+    span, a {
+      color: $dark-mode-text-muted-color;
+
+      &:link {
+        color: $dark-mode-text-muted-color;
+      }
+    }
+  }
+
   #footer {
     background-color: rgb(50, 50, 50);
+
+    a, a:visited, a:active {
+      color: $dark-mode-text-muted-color;
+    }
+
+    h4 {
+      color: $dark-mode-text-muted-color;
+    }
   }
 }
 
@@ -96,8 +114,26 @@ body.dark-mode {
     color: #dcdcdc;
   }
 
+  .download-source-group {
+    span, a {
+      color: $dark-mode-text-muted-color;
+
+      &:link {
+        color: $dark-mode-text-muted-color;
+      }
+    }
+  }
+
   #footer {
     background-color: rgb(50, 50, 50);
+
+    a, a:visited, a:active {
+      color: $dark-mode-text-muted-color;
+    }
+
+    h4 {
+      color: $dark-mode-text-muted-color;
+    }
   }
 }
 
@@ -153,8 +189,26 @@ body.dark-mode {
     color: $text-kinda-muted-color;
   }
 
+  .download-source-group {
+    span, a {
+      color: $light-mode-text-muted-color;
+
+      &:link {
+        color: $light-mode-text-muted-color;
+      }
+    }
+  }
+
   #footer {
     background-color: hsl(0, 0%, 92%);
+
+    a, a:visited, a:active {
+      color: $light-mode-text-muted-color;
+    }
+
+    h4 {
+      color: $light-mode-text-muted-color;
+    }
   }
 }
 
@@ -199,8 +253,26 @@ body.light-mode {
     color: $text-kinda-muted-color;
   }
 
+  .download-source-group {
+    span, a {
+      color: $light-mode-text-muted-color;
+
+      &:link {
+        color: $light-mode-text-muted-color;
+      }
+    }
+  }
+
   #footer {
     background-color: hsl(0, 0%, 92%);
+
+    a, a:visited, a:active {
+      color: $light-mode-text-muted-color;
+    }
+
+    h4 {
+      color: $light-mode-text-muted-color;
+    }
   }
 }
 
@@ -252,7 +324,6 @@ hr {
 
 #footer {
   a, a:visited, a:active {
-    color: $text-very-muted-color;
     text-decoration: underline;
   }
 
@@ -264,7 +335,6 @@ hr {
   }
 
   h4 {
-    color: $text-muted-color;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 2rem;
