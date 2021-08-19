@@ -61,6 +61,10 @@
   #footer {
     background-color: rgb(50, 50, 50);
 
+    a, a:visited, a:active {
+      color: $dark-mode-text-muted-color;
+    }
+
     h4 {
       color: $dark-mode-text-muted-color;
     }
@@ -122,6 +126,10 @@ body.dark-mode {
 
   #footer {
     background-color: rgb(50, 50, 50);
+
+    a, a:visited, a:active {
+      color: $dark-mode-text-muted-color;
+    }
 
     h4 {
       color: $dark-mode-text-muted-color;
@@ -193,6 +201,14 @@ body.dark-mode {
 
   #footer {
     background-color: hsl(0, 0%, 92%);
+
+    a, a:visited, a:active {
+      color: $light-mode-text-muted-color;
+    }
+
+    h4 {
+      color: $light-mode-text-muted-color;
+    }
   }
 }
 
@@ -249,6 +265,14 @@ body.light-mode {
 
   #footer {
     background-color: hsl(0, 0%, 92%);
+
+    a, a:visited, a:active {
+      color: $light-mode-text-muted-color;
+    }
+
+    h4 {
+      color: $light-mode-text-muted-color;
+    }
   }
 }
 
@@ -300,7 +324,6 @@ hr {
 
 #footer {
   a, a:visited, a:active {
-    color: $text-very-muted-color;
     text-decoration: underline;
   }
 

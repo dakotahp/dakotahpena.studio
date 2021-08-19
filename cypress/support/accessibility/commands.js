@@ -36,7 +36,25 @@ Cypress.Commands.add('a11yCheck', () => {
   );
 });
 
-Cypress.Commands.add('a11yVisit', (destination) => {
-  cy.visit(destination);
+// Cypress.Commands.add('a11yVisit', (destination) => {
+//   cy.visit(destination);
+//   cy.injectAxe();
+// });
+
+Cypress.Commands.add('visitInLightMode', () => {
+  cy.visit('/', {
+    onLoad (contentWindow) {
+      contentWindow.document.body.classList.add("light-mode");
+    },
+  });
+  cy.injectAxe();
+});
+
+Cypress.Commands.add('visitInDarkMode', () => {
+  cy.visit('/', {
+    onLoad (contentWindow) {
+      contentWindow.document.body.classList.add("dark-mode");
+    },
+  });
   cy.injectAxe();
 });
