@@ -9,9 +9,8 @@
   },
   "devDependencies": {
     "axe-core": "^4.3.2",
-    "cypress": "^8.0.0",
-    "cypress-axe": "^0.13.0",
-    "cypress-plugin-snapshots": "^1.4.4"
+    "cypress": "^8.3.0",
+    "cypress-axe": "^0.13.0"
   },
   "scripts": {
     "cypress:a11y:open": "cypress open -C ./cypress/config/cypress.a11y.json",
