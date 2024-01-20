@@ -1,4 +1,5 @@
 node_modules/
-docs/
+public/
 cypress_results/accessibility/screenshots/
 cypress_results/accessibility/videos/
+.hugo_build.lock

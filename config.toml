@@ -2,7 +2,7 @@ baseURL = "https://dakotahpena.studio/"
 languageCode = "en-us"
 title = "Dakotah Peña"
 sectionPagesMenu = "main"
-publishDir = "docs"
+publishDir = "public"
 copyright = "© Dakotah Peña"
 enableGitInfo = true
 
