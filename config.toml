@@ -21,7 +21,7 @@ contactEmail = "hey@dakotahpena.studio"
 dateFormat = "Jan 2, 2006"
 description = "Dakotah Peña, maker."
 images = ["site-feature-image.jpg"]
-analyticsId = "38de2090-4acb-41c8-a9ea-38688ebbb8ab"
+analyticsId = "56b72f90-ebf6-4dea-b795-83a5e9fdb5e6"
 
 [sitemap]
 changefreq = "monthly"
