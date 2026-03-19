@@ -1,6 +1,6 @@
 ---
 title: "Books"
-publishDate: 2019-12-24T07:16:29-08:00
+date: 2019-12-24T07:16:29-08:00
 draft: true
 toc: false
 ---

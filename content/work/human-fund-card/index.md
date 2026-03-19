@@ -1,6 +1,6 @@
 ---
 title: "Human Fund Card"
-publishDate: 2019-12-24T06:55:14-08:00
+date: 2019-12-24T06:55:14-08:00
 draft: false
 toc: false
 categories: ["design"]

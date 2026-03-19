@@ -1,6 +1,6 @@
 ---
 title: "FaceTime Audio Versus Voice Cost Analysis"
-publishDate: 2015-06-01T17:44:14-08:00
+date: 2015-06-01T17:44:14-08:00
 draft: false
 menu: "blog"
 tags: ["communication", "FaceTime", "Ting", "cellular"]

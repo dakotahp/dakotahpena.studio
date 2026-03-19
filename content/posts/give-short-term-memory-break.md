@@ -1,6 +1,6 @@
 ---
 title: "Give Your Short Term Memory A Break"
-publishDate: 2021-04-29T06:19:10-07:00
+date: 2021-04-29T06:19:10-07:00
 draft: false
 menu: "blog"
 categories: ["Productivity"]

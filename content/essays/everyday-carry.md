@@ -1,6 +1,6 @@
 ---
 title: "Everyday Carry"
-publishDate: 2019-08-08T21:44:36-07:00
+date: 2019-08-08T21:44:36-07:00
 draft: false
 toc: true
 ---

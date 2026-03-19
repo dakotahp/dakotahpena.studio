@@ -1,6 +1,6 @@
 ---
 title: "Engagement Is A KPI"
-publishDate: 2026-03-18T20:57:30-07:00
+date: 2026-03-18T20:57:30-07:00
 draft: false
 toc: false
 ---

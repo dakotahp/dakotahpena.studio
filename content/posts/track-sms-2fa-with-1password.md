@@ -1,6 +1,6 @@
 ---
 title: "Keep Track of Where You Use SMS 2FA"
-publishDate: 2021-08-01T20:48:55-07:00
+date: 2021-08-01T20:48:55-07:00
 draft: false
 toc: false
 categories: ["Productivity"]

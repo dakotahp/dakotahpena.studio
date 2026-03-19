@@ -34,11 +34,11 @@ Three main sections, each with its own layout templates in `layouts/`:
 
 | Section | Purpose | Front matter notes |
 |---------|---------|-------------------|
-| `posts/` | Blog posts | `publishDate`, `menu: "blog"`, `tags`, `categories` |
-| `essays/` | Long-form writing | `publishDate`, no menu assignment needed |
+| `posts/` | Blog posts | `date`, `menu: "blog"`, `tags`, `categories` |
+| `essays/` | Long-form writing | `date`, no menu assignment needed |
 | `work/` | Portfolio items | Some are directories (e.g. `work/bike/`) for multi-file projects |
 
-Essays front matter uses `publishDate` (not `date`) — follow this convention. Some older essays use `publish_date` (snake_case); don't introduce new ones with that key.
+All content uses `date` for the page date — this is what templates render via `.Date`. Never use `publishDate` (maps to `.PublishDate`, ignored by templates) or `publish_date` (unrecognized by Hugo).
 
 ### Layout System
 
