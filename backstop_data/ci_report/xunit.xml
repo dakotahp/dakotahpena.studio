@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="26" failures="0" errors="0" skipped="0">
+  <testsuite name="BackstopJS" tests="26" failures="0" errors="0" skipped="0">
+    <testcase classname="document" name=" ›› home"/>
+    <testcase classname="document" name=" ›› home"/>
+    <testcase classname="document" name=" ›› about"/>
+    <testcase classname="document" name=" ›› about"/>
+    <testcase classname="document" name=" ›› contact"/>
+    <testcase classname="document" name=" ›› contact"/>
+    <testcase classname="document" name=" ›› attribution"/>
+    <testcase classname="document" name=" ›› attribution"/>
+    <testcase classname="document" name=" ›› essays-index"/>
+    <testcase classname="document" name=" ›› essays-index"/>
+    <testcase classname="document" name=" ›› essay-everyday-carry"/>
+    <testcase classname="document" name=" ›› essay-everyday-carry"/>
+    <testcase classname="document" name=" ›› essay-perfect-change"/>
+    <testcase classname="document" name=" ›› essay-perfect-change"/>
+    <testcase classname="document" name=" ›› posts-index"/>
+    <testcase classname="document" name=" ›› posts-index"/>
+    <testcase classname="document" name=" ›› post-miniflux"/>
+    <testcase classname="document" name=" ›› post-miniflux"/>
+    <testcase classname="document" name=" ›› post-short-term-memory"/>
+    <testcase classname="document" name=" ›› post-short-term-memory"/>
+    <testcase classname="document" name=" ›› work-index"/>
+    <testcase classname="document" name=" ›› work-index"/>
+    <testcase classname="document" name=" ›› work-bike"/>
+    <testcase classname="document" name=" ›› work-bike"/>
+    <testcase classname="document" name=" ›› work-human-fund-card"/>
+    <testcase classname="document" name=" ›› work-human-fund-card"/>
+  </testsuite>
+</testsuites>
