@@ -1,0 +1,34 @@
+{
+  "id": "dakotahpena_studio",
+  "viewports": [
+    { "label": "desktop", "width": 1280, "height": 900 },
+    { "label": "mobile", "width": 375, "height": 812 }
+  ],
+  "scenarios": [
+    { "label": "home",               "url": "http://localhost:1313/" },
+    { "label": "about",              "url": "http://localhost:1313/about/" },
+    { "label": "contact",            "url": "http://localhost:1313/contact/" },
+    { "label": "attribution",        "url": "http://localhost:1313/attribution/" },
+    { "label": "essays-index",       "url": "http://localhost:1313/essays/" },
+    { "label": "essay-everyday-carry", "url": "http://localhost:1313/essays/everyday-carry/" },
+    { "label": "essay-perfect-change", "url": "http://localhost:1313/essays/perfect-change/" },
+    { "label": "posts-index",        "url": "http://localhost:1313/posts/" },
+    { "label": "post-miniflux",      "url": "http://localhost:1313/posts/self-host-miniflux-docker/" },
+    { "label": "post-short-term-memory", "url": "http://localhost:1313/posts/give-short-term-memory-break/" },
+    { "label": "work-index",         "url": "http://localhost:1313/work/" },
+    { "label": "work-bike",          "url": "http://localhost:1313/work/bike/" },
+    { "label": "work-human-fund-card", "url": "http://localhost:1313/work/human-fund-card/" }
+  ],
+  "paths": {
+    "bitmaps_reference": "backstop_data/bitmaps_reference",
+    "bitmaps_test":      "backstop_data/bitmaps_test",
+    "html_report":       "backstop_data/html_report",
+    "ci_report":         "backstop_data/ci_report"
+  },
+  "report": ["browser", "CI"],
+  "engine": "puppeteer",
+  "engineOptions": { "args": ["--no-sandbox"] },
+  "asyncCaptureLimit": 3,
+  "asyncCompareLimit": 50,
+  "misMatchThreshold": 0.1
+}
