@@ -3,3 +3,4 @@ public/
 cypress_results/accessibility/screenshots/
 cypress_results/accessibility/videos/
 .hugo_build.lock
+resources/_gen/
