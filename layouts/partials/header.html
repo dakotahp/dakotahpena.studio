@@ -1,5 +1,5 @@
-<header id="header" class="grid-x grid-padding-x">
-  <div class="large-4 cell">
+<header id="header">
+  <div>
     <a
       href="{{ .Site.BaseURL }}"
       class="no-underline"
@@ -8,8 +8,8 @@
       {{ partial "logo.html" . }}
     </a>
   </div>
-  <div class="large-8 cell">
-    <nav id="primary-nav" class="align-right text-right">
+  <div>
+    <nav id="primary-nav" class="text-right">
       <ul class="inline">
         {{ $currentPage := . }}
         {{ range sort .Site.Menus.primary.ByWeight }}
