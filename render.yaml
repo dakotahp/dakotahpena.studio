@@ -3,6 +3,6 @@ services:
     name: dakotahpena-studio
     env: static
     buildCommand: |
-      curl -sSL https://github.com/gohugoio/hugo/releases/download/v0.121.2/hugo_extended_0.121.2_linux-amd64.tar.gz | tar -xz
+      curl -sSL https://github.com/gohugoio/hugo/releases/download/v0.121.2/hugo_0.121.2_linux-amd64.tar.gz | tar -xz
       ./hugo
     staticPublishPath: public
