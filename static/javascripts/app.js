@@ -1,5 +1,3 @@
-$(document).foundation()
-
 /* Dark Mode Support */
 
 // Select the button
