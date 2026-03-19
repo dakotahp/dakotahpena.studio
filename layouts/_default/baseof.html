@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="/css/foundation.css">
 
     {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" true) }}
-    {{ $style := resources.Get "stylesheets/app.scss" | resources.ToCSS $options | resources.Fingerprint }}
+    {{ $style := resources.Get "stylesheets/app.scss" | css.Sass $options | fingerprint }}
     <link
       rel="stylesheet"
       integrity="{{ $style.Data.Integrity }}"
