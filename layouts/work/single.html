@@ -2,53 +2,39 @@
 
 {{ $images := .Resources.ByType "image" }}
 
-<div class="grid-x">
-  <section class="cell small-8">
+<div>
+  <section class="content-column">
     <a href="/work/">&#x2190; Back to Work</a>
   </section>
 </div>
 
-<div class="grid-x">
-  <section class="cell medium-8 small-12">
+<div>
+  <section class="content-column">
     <h1 class="spacer-bottom-10">{{ .Title }}</h1>
 
-    <div class="orbit" role="region" aria-label="{{ .Title }}" data-orbit>
-      <div class="orbit-wrapper">
-        {{ if gt $images 1 }}
-          <div class="orbit-controls">
-            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-          </div>
+    {{ if $images }}
+    <div class="work-gallery">
+      <div class="gallery-hero">
+        {{ range $index, $image := $images }}
+          {{ $full := $image.Fit "1200x800 q90" }}
+          <img id="gallery-img-{{ $index }}"
+               src="{{ $full.RelPermalink }}"
+               alt="{{ with $image.Title }}{{ . }}{{ else }}{{ $.Title }} image {{ $index | add 1 }}{{ end }}">
         {{ end }}
-
-        <ul class="orbit-container">
-          {{ range $index, $fullImage := $images }}
-            {{ $image := $fullImage.Fit "700x500 q100" }}
-            <li class="is-active orbit-slide">
-              <figure class="orbit-figure">
-                <img class="orbit-image" src="{{ $image.RelPermalink }}" alt="Image {{ $fullImage }} of {{ len $images }}">
-                {{ if ne $image.Title $image.Name }}
-                  <figcaption class="orbit-caption">{{ $image.Title }}</figcaption>
-                {{ end }}
-              </figure>
-            </li>
-          {{ end }}
-        </ul>
       </div>
-
-      {{ if gt $images 1 }}
-        <nav class="orbit-bullets">
-          {{ range $index, $image := $images }}
-            <button class="{{ if eq $index 0 }}is-active{{end}}" data-slide="{{ $index }}">
-              <span class="show-for-sr">Slide {{ $index }} details.</span>
-              {{ if eq $index 0 }}
-                <span class="show-for-sr" data-slide-active-label>Current Slide</span>
-              {{end}}
-            </button>
-          {{ end }}
-        </nav>
+      {{ if gt (len $images) 1 }}
+      <div class="gallery-thumbs">
+        {{ range $index, $image := $images }}
+          {{ $thumb := $image.Fit "200x150 q80" }}
+          <a href="#gallery-img-{{ $index }}">
+            <img src="{{ $thumb.RelPermalink }}"
+                 alt="{{ with $image.Title }}{{ . }}{{ else }}{{ $.Title }} image {{ $index | add 1 }}{{ end }}">
+          </a>
+        {{ end }}
+      </div>
       {{ end }}
     </div>
+    {{ end }}
 
     <article class="spacer-top-10">
       {{ .Content }}
