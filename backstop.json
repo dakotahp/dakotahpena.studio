@@ -8,7 +8,6 @@
     { "label": "home",               "url": "http://localhost:1313/" },
     { "label": "about",              "url": "http://localhost:1313/about/" },
     { "label": "contact",            "url": "http://localhost:1313/contact/" },
-    { "label": "attribution",        "url": "http://localhost:1313/attribution/" },
     { "label": "essays-index",       "url": "http://localhost:1313/essays/" },
     { "label": "essay-everyday-carry", "url": "http://localhost:1313/essays/everyday-carry/" },
     { "label": "essay-perfect-change", "url": "http://localhost:1313/essays/perfect-change/" },
