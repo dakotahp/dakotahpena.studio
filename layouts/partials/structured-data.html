@@ -1,0 +1,23 @@
+{{ if or (eq .Section "posts") (eq .Section "essays") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{{ if eq .Section "posts" }}BlogPosting{{ else }}Article{{ end }}",
+  "headline": {{ .Title | jsonify }},
+  "datePublished": "{{ .Date.Format "2006-01-02" }}",
+  {{ if .Lastmod.After .Date }}"dateModified": "{{ .Lastmod.Format "2006-01-02" }}",{{ end }}
+  "author": {
+    "@type": "Person",
+    "name": {{ .Site.Params.author | jsonify }},
+    "url": {{ .Site.BaseURL | jsonify }}
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": {{ .Site.Params.author | jsonify }},
+    "url": {{ .Site.BaseURL | jsonify }}
+  },
+  "description": {{ if .Description }}{{ .Description | jsonify }}{{ else }}{{ .Site.Params.description | jsonify }}{{ end }},
+  "url": {{ .Permalink | jsonify }}
+}
+</script>
+{{ end }}

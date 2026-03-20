@@ -9,7 +9,7 @@
     </a>
   </div>
   <div>
-    <nav id="primary-nav">
+    <nav id="primary-nav" aria-label="Primary navigation">
       <ul>
         {{ $currentPage := . }}
         {{ range sort .Site.Menus.primary.ByWeight }}

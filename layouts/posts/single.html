@@ -12,7 +12,7 @@
     <h1 class="post__title">{{ .Title }}</h1>
 
     <div class="post__meta">
-      <time datetime="{{ .Date }}">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">
         {{- .Date.Format (.Site.Params.dateFormat) -}}
       </time>
 
@@ -35,7 +35,7 @@
         {{- end -}},
         tagged with
         {{ range .Params.tags }}
-          <a href="/categories/{{ lower . }}/">{{ . }}</a>
+          <a href="/tags/{{ lower . }}/">{{ . }}</a>
         {{- end -}}.
       </span>
     </div>
