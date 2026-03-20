@@ -2,24 +2,38 @@
 
 <div>
   <section class="content-column">
-    <a href="/">&#x2190; Back to Home</a>
+    {{ .Content }}
   </section>
 </div>
 
-<div class="post__container content-column">
-  {{ range .Paginator.Pages }}
-    <article class="post__content">
-      <time datetime="{{ .Date }}">{{ .Date.Format $.Site.Params.dateFormat }}</time>
+<div class="posts__container">
+  <section class="post__container content-column">
+    {{ range (.Paginate ( first 10 .Pages.ByDate.Reverse )).Pages }}
+      <article class="post__content">
+        <time datetime="{{ .Date }}">
+          {{- .Date.Format (.Site.Params.dateFormat) -}}
+        </time>
 
-      <h1 class="post__title">
-        <a href="{{ .RelPermalink }}" class="no-underline">{{ .Title }}</a>
-      </h1>
+        <h1 class="post__title">
+          <a href="{{ .RelPermalink }}" class="no-underline">
+            {{ .Title }}
+          </a>
+        </h1>
 
-      <div>
-        <a class="link__read_more" href="{{ .RelPermalink }}">Read more</a>
-      </div>
-    </article>
-  {{ end }}
+        <p>
+          {{ .Summary }}
+        </p>
+
+        {{ if .Truncated }}
+          <div>
+            <a href="{{ .RelPermalink }}">Read more…</a>
+          </div>
+        {{ end }}
+      </article>
+    {{ end }}
+  </section>
+
+  {{ partial "blog_sidebar.html" . }}
 </div>
 
 {{ end }}

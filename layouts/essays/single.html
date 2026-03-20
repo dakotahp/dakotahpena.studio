@@ -11,15 +11,20 @@
 
     <h1>{{ .Title }}</h1>
 
-    <div class="post__meta">
-      <time datetime="{{ .Date }}">
-        {{- .Date.Format (.Site.Params.dateFormat) -}}
-      </time>
+    {{ if .Date }}
+      <div class="post__meta">
+        <time datetime="{{ .Date }}">{{- .Date.Format (.Site.Params.dateFormat) -}}</time>
 
-      &middot;
+        {{ if .Lastmod.After .Date }}
+          &middot;
+          <em>
+            Edited <time datetime="{{ .Lastmod }}">{{- .Lastmod.Format (.Site.Params.dateFormat) -}}</time>
+          </em>
+        {{ end }}
+      </div>
+    {{ end }}
 
-      <span>{{ .ReadingTime }} minute read</span>
-    </div>
+    {{ partial "table_of_contents.html" . }}
 
     <article class="post__content">{{ .Content }}</article>
 
