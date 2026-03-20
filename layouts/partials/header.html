@@ -9,8 +9,8 @@
     </a>
   </div>
   <div>
-    <nav id="primary-nav" class="text-right">
-      <ul class="inline">
+    <nav id="primary-nav">
+      <ul>
         {{ $currentPage := . }}
         {{ range sort .Site.Menus.primary.ByWeight }}
           <li>
