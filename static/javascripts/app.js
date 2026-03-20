@@ -13,7 +13,8 @@ if (savedTheme) {
 // Guard against pages where the toggle button is absent.
 if (btn) {
   btn.addEventListener("click", function() {
-    const current = document.documentElement.dataset.theme;
+    const current = document.documentElement.dataset.theme ||
+      (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
     const next = current === "dark" ? "light" : "dark";
     document.documentElement.dataset.theme = next;
     localStorage.setItem("theme", next);

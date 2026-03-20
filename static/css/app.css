@@ -347,4 +347,5 @@ a.no-underline          { text-decoration: none; }
 #footer h4              { color: var(--site-muted); }
 
 article                 { background: none; box-shadow: none; border-radius: 0; padding: 0; }
+ul.inline               { display: flex; flex-wrap: wrap; gap: 0.5rem; list-style: none; padding: 0; }
 .container              { max-width: 62.5rem; }
