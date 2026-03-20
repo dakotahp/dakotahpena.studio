@@ -9,7 +9,7 @@
 <div class="post__container">
   <section class="content-column">
 
-    <h1 class="post__title spacer-top-5">{{ .Title }}</h1>
+    <h1 class="post__title">{{ .Title }}</h1>
 
     <div class="post__meta">
       <time datetime="{{ .Date }}">
@@ -21,7 +21,7 @@
       <span>{{ .ReadingTime }} minute read</span>
     </div>
 
-    <article class="post__content spacer-top-10 spacer-bottom-10">
+    <article class="post__content">
       {{ .Content }}
     </article>
 

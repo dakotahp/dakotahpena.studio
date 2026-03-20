@@ -9,12 +9,12 @@
 <div class="posts__container">
   <section class="post__container content-column">
     {{ range (.Paginate ( first 10 .Pages.ByDate.Reverse )).Pages }}
-      <article class="post__content spacer-top-10">
+      <article class="post__content">
         <time datetime="{{ .Date }}">
           {{- .Date.Format (.Site.Params.dateFormat) -}}
         </time>
 
-        <h1 class="post__title spacer-top-5">
+        <h1 class="post__title">
           <a href="{{ .RelPermalink }}" class="no-underline">
             {{ .Title }}
           </a>
@@ -25,7 +25,7 @@
         </p>
 
         {{ if .Truncated }}
-          <div class="spacer-top-4 spacer-bottom-15">
+          <div>
             <a href="{{ .RelPermalink }}">Read more…</a>
           </div>
         {{ end }}

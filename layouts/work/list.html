@@ -9,29 +9,28 @@
 <div>
   <section class="content-column">
     {{ range (.Paginate ( first 10 .Pages.ByDate.Reverse )).Pages }}
-        <article class="spacer-top-10">
-          <div>
-            <h2 class="spacer-bottom-10"><a href="{{ .RelPermalink }}" class="no-underline">{{ .Title }}</a></h2>
+      <article>
+        <div>
+          <h2><a href="{{ .RelPermalink }}" class="no-underline">{{ .Title }}</a></h2>
 
-            {{ range .Resources.ByType "image" }}
-              {{ $image := .Resize "300x q100" }}
-              <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}">
-            {{end}}
-
-            <div class="spacer-top-6">
-              {{ .Summary }}
-            </div>
-          </div>
-
-          {{ if .Truncated }}
-            <div class="spacer-top-4">
-              <a href="{{ .RelPermalink }}">Read more…</a>
-            </div>
+          {{ range .Resources.ByType "image" }}
+            {{ $image := .Resize "300x q100" }}
+            <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}">
           {{ end }}
-        </article>
+
+          <div>
+            {{ .Summary }}
+          </div>
+        </div>
+
+        {{ if .Truncated }}
+          <div>
+            <a href="{{ .RelPermalink }}">Read more…</a>
+          </div>
+        {{ end }}
+      </article>
     {{ end }}
   </section>
-
 </div>
 
 {{ end }}

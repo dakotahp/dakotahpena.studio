@@ -9,7 +9,7 @@
 <div class="post__container">
   <section class="content-column">
 
-    <h1 class="spacer-top-5">{{ .Title }}</h1>
+    <h1>{{ .Title }}</h1>
 
     {{ if .Date }}
       <div class="post__meta">
@@ -26,7 +26,8 @@
 
     {{ partial "table_of_contents.html" . }}
 
-    <article class="post__content spacer-top-10">{{ .Content }}</article>
+    <article class="post__content">{{ .Content }}</article>
+
   </section>
 </div>
 

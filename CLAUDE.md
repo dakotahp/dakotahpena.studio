@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-A Hugo-based personal website. Content lives in `content/`, templates in `layouts/`, and SCSS in `assets/stylesheets/`. Foundation CSS framework handles grid and UI components.
+A Hugo-based personal website. Content lives in `content/`, templates in `layouts/`, and SCSS in `assets/stylesheets/`. PicoCSS handles base styles.
 
 ## Commands
 
@@ -16,10 +16,6 @@ foreman start
 
 # Build for production
 hugo
-
-# Accessibility tests (requires hugo server running on :1313)
-npm run cypress:a11y:run
-npm run cypress:a11y:open   # interactive
 
 # Scaffold new content
 hugo new posts/my-post-title.md
@@ -46,7 +42,7 @@ All content uses `date` for the page date — this is what templates render via 
 
 ### Styling
 
-SCSS entry point is `assets/stylesheets/app.scss`, compiled at build time via Hugo Pipes (see `baseof.html`). Foundation CSS is served from `static/css/foundation.css`. Partial SCSS files follow `_name.scss` convention.
+PicoCSS is served from `static/css/pico.min.css`. Site-specific styles are in `static/css/app.css`, loaded after PicoCSS. CSS custom properties (`--pico-*`) are used for font and color overrides.
 
 ### Config
 
@@ -54,4 +50,4 @@ SCSS entry point is `assets/stylesheets/app.scss`, compiled at build time via Hu
 
 ### CI
 
-GitHub Actions runs Cypress accessibility tests (`cypress-axe`) on every push. Tests expect Hugo output in `docs/` served via Caddy on port 1313.
+Cypress accessibility tests have been removed. Visual regression is handled by BackstopJS (`npx backstop test`).

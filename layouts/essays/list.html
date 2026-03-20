@@ -9,14 +9,14 @@
 <div>
   <section class="content-column">
     {{ range .Pages }}
-      <article class="spacer-top-10">
+      <article>
         <div>
           <h2><a href="{{ .RelPermalink }}" class="no-underline">{{ .Title }}</a></h2>
           {{ .Summary }}
         </div>
 
         {{ if .Truncated }}
-          <div class="spacer-top-4">
+          <div>
             <a href="{{ .RelPermalink }}">Read more…</a>
           </div>
         {{ end }}
