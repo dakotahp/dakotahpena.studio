@@ -1,7 +1,5 @@
 node_modules/
 public/
-cypress_results/accessibility/screenshots/
-cypress_results/accessibility/videos/
 .hugo_build.lock
 resources/_gen/
 backstop_data/bitmaps_test/
