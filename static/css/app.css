@@ -323,11 +323,16 @@ blockquote.pull-quote:after {
 
 /* ─── Apply site tokens ──────────────────────────────────────── */
 
-body                    { background-color: var(--site-bg); color: var(--site-color); }
+html, body              { background-color: var(--site-bg); }
+body                    { color: var(--site-color); }
 p, span, li, h1, h2, h3, h4, h5, h6 { color: var(--site-color); }
 a:not(.button),
 a:visited:not(.button),
 a:active:not(.button)   { color: var(--site-link); }
+a:not(.button):not(.no-underline),
+a:visited:not(.button):not(.no-underline),
+a:active:not(.button):not(.no-underline) { text-decoration: underline; }
+a.no-underline          { text-decoration: none; }
 #logo g                 { fill: var(--site-logo-fill); }
 #primary-nav a,
 #primary-nav a:visited,
@@ -340,3 +345,6 @@ a:active:not(.button)   { color: var(--site-link); }
 #footer a:visited,
 #footer a:active        { color: var(--site-muted); }
 #footer h4              { color: var(--site-muted); }
+
+article                 { background: none; box-shadow: none; border-radius: 0; padding: 0; }
+.container              { max-width: 62.5rem; }

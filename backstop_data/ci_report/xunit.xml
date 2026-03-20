@@ -1,31 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="26" failures="0" errors="0" skipped="0">
-  <testsuite name="BackstopJS" tests="26" failures="0" errors="0" skipped="0">
-    <testcase classname="document" name=" ›› home"/>
-    <testcase classname="document" name=" ›› home"/>
-    <testcase classname="document" name=" ›› about"/>
-    <testcase classname="document" name=" ›› about"/>
-    <testcase classname="document" name=" ›› contact"/>
-    <testcase classname="document" name=" ›› contact"/>
-    <testcase classname="document" name=" ›› attribution"/>
-    <testcase classname="document" name=" ›› attribution"/>
-    <testcase classname="document" name=" ›› essays-index"/>
-    <testcase classname="document" name=" ›› essays-index"/>
-    <testcase classname="document" name=" ›› essay-everyday-carry"/>
-    <testcase classname="document" name=" ›› essay-everyday-carry"/>
-    <testcase classname="document" name=" ›› essay-perfect-change"/>
-    <testcase classname="document" name=" ›› essay-perfect-change"/>
-    <testcase classname="document" name=" ›› posts-index"/>
-    <testcase classname="document" name=" ›› posts-index"/>
-    <testcase classname="document" name=" ›› post-miniflux"/>
-    <testcase classname="document" name=" ›› post-miniflux"/>
-    <testcase classname="document" name=" ›› post-short-term-memory"/>
-    <testcase classname="document" name=" ›› post-short-term-memory"/>
-    <testcase classname="document" name=" ›› work-index"/>
-    <testcase classname="document" name=" ›› work-index"/>
-    <testcase classname="document" name=" ›› work-bike"/>
-    <testcase classname="document" name=" ›› work-bike"/>
-    <testcase classname="document" name=" ›› work-human-fund-card"/>
-    <testcase classname="document" name=" ›› work-human-fund-card"/>
+<testsuites tests="26" failures="26" errors="26" skipped="0">
+  <testsuite name="BackstopJS" tests="26" failures="26" errors="26" skipped="0">
+    <testcase classname="document" name=" ›› home">
+      <failure message="Design deviation ›› home (document) component"/>
+      <error message="Design deviation ›› home (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› home">
+      <failure message="Design deviation ›› home (document) component"/>
+      <error message="Design deviation ›› home (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› about">
+      <failure message="Design deviation ›› about (document) component"/>
+      <error message="Design deviation ›› about (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› about">
+      <failure message="Design deviation ›› about (document) component"/>
+      <error message="Design deviation ›› about (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› contact">
+      <failure message="Design deviation ›› contact (document) component"/>
+      <error message="Design deviation ›› contact (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› contact">
+      <failure message="Design deviation ›› contact (document) component"/>
+      <error message="Design deviation ›› contact (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› attribution">
+      <failure message="Design deviation ›› attribution (document) component"/>
+      <error message="Design deviation ›› attribution (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› attribution">
+      <failure message="Design deviation ›› attribution (document) component"/>
+      <error message="Design deviation ›› attribution (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› essays-index">
+      <failure message="Design deviation ›› essays-index (document) component"/>
+      <error message="Design deviation ›› essays-index (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› essays-index">
+      <failure message="Design deviation ›› essays-index (document) component"/>
+      <error message="Design deviation ›› essays-index (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› essay-everyday-carry">
+      <failure message="Design deviation ›› essay-everyday-carry (document) component"/>
+      <error message="Design deviation ›› essay-everyday-carry (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› essay-everyday-carry">
+      <failure message="Design deviation ›› essay-everyday-carry (document) component"/>
+      <error message="Design deviation ›› essay-everyday-carry (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› essay-perfect-change">
+      <failure message="Design deviation ›› essay-perfect-change (document) component"/>
+      <error message="Design deviation ›› essay-perfect-change (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› essay-perfect-change">
+      <failure message="Design deviation ›› essay-perfect-change (document) component"/>
+      <error message="Design deviation ›› essay-perfect-change (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› posts-index">
+      <failure message="Design deviation ›› posts-index (document) component"/>
+      <error message="Design deviation ›› posts-index (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› posts-index">
+      <failure message="Design deviation ›› posts-index (document) component"/>
+      <error message="Design deviation ›› posts-index (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› post-miniflux">
+      <failure message="Design deviation ›› post-miniflux (document) component"/>
+      <error message="Design deviation ›› post-miniflux (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› post-miniflux">
+      <failure message="Design deviation ›› post-miniflux (document) component"/>
+      <error message="Design deviation ›› post-miniflux (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› post-short-term-memory">
+      <failure message="Design deviation ›› post-short-term-memory (document) component"/>
+      <error message="Design deviation ›› post-short-term-memory (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› post-short-term-memory">
+      <failure message="Design deviation ›› post-short-term-memory (document) component"/>
+      <error message="Design deviation ›› post-short-term-memory (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› work-index">
+      <failure message="Design deviation ›› work-index (document) component"/>
+      <error message="Design deviation ›› work-index (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› work-index">
+      <failure message="Design deviation ›› work-index (document) component"/>
+      <error message="Design deviation ›› work-index (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› work-bike">
+      <failure message="Design deviation ›› work-bike (document) component"/>
+      <error message="Design deviation ›› work-bike (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› work-bike">
+      <failure message="Design deviation ›› work-bike (document) component"/>
+      <error message="Design deviation ›› work-bike (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› work-human-fund-card">
+      <failure message="Design deviation ›› work-human-fund-card (document) component"/>
+      <error message="Design deviation ›› work-human-fund-card (document) component"/>
+    </testcase>
+    <testcase classname="document" name=" ›› work-human-fund-card">
+      <failure message="Design deviation ›› work-human-fund-card (document) component"/>
+      <error message="Design deviation ›› work-human-fund-card (document) component"/>
+    </testcase>
   </testsuite>
 </testsuites>

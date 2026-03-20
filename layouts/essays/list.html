@@ -2,7 +2,7 @@
 
 <div>
   <section class="content-column">
-    <a href="/">&#x2190; Back to Home</a>
+    {{ .Content }}
   </section>
 </div>
 
@@ -10,11 +10,16 @@
   <section class="content-column">
     {{ range .Pages }}
       <article>
-        <time datetime="{{ .Date }}">{{ .Date.Format $.Site.Params.dateFormat }}</time>
-        <h2><a href="{{ .RelPermalink }}" class="no-underline">{{ .Title }}</a></h2>
         <div>
-          <a href="{{ .RelPermalink }}">Read more</a>
+          <h2><a href="{{ .RelPermalink }}" class="no-underline">{{ .Title }}</a></h2>
+          {{ .Summary }}
         </div>
+
+        {{ if .Truncated }}
+          <div>
+            <a href="{{ .RelPermalink }}">Read more…</a>
+          </div>
+        {{ end }}
       </article>
     {{ end }}
   </section>
