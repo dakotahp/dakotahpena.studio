@@ -9,24 +9,20 @@
 <div class="post__container">
   <section class="content-column">
 
-    <h1 class="spacer-top-5">{{ .Title }}</h1>
+    <h1>{{ .Title }}</h1>
 
-    {{ if .Date }}
-      <div class="post__meta">
-        <time datetime="{{ .Date }}">{{- .Date.Format (.Site.Params.dateFormat) -}}</time>
+    <div class="post__meta">
+      <time datetime="{{ .Date }}">
+        {{- .Date.Format (.Site.Params.dateFormat) -}}
+      </time>
 
-        {{ if .Lastmod.After .Date }}
-          &middot;
-          <em>
-            Edited <time datetime="{{ .Lastmod }}">{{- .Lastmod.Format (.Site.Params.dateFormat) -}}</time>
-          </em>
-        {{ end }}
-      </div>
-    {{ end }}
+      &middot;
 
-    {{ partial "table_of_contents.html" . }}
+      <span>{{ .ReadingTime }} minute read</span>
+    </div>
 
-    <article class="post__content spacer-top-10">{{ .Content }}</article>
+    <article class="post__content">{{ .Content }}</article>
+
   </section>
 </div>
 
