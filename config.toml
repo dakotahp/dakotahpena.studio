@@ -4,7 +4,6 @@ title = "Dakotah Peña"
 sectionPagesMenu = "main"
 publishDir = "public"
 copyright = "© Dakotah Peña"
-enableGitInfo = true
 
 [markup]
 [markup.goldmark]

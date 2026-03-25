@@ -1,7 +1,6 @@
 ---
 title: "Give Thanks, Not Kudos"
 date: 2026-03-24T21:12:38-07:00
-lastmod: 2026-03-24T21:12:38-07:00
 draft: false
 toc: false
 ---
