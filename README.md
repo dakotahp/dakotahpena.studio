@@ -1,6 +1,6 @@
-# dakotahpena.studio
+# dakotahpena.dev
 
-Personal website for [Dakotah Peña](https://dakotahpena.studio), built with [Hugo](https://gohugo.io/) and [PicoCSS](https://picocss.com/). Deployed via Render on push to `master`.
+Personal website for [Dakotah Peña](https://dakotahpena.dev), built with [Hugo](https://gohugo.io/) and [PicoCSS](https://picocss.com/). Deployed via Render on push to `master`.
 
 ## Development
 

@@ -1,8 +1,3 @@
 {{ if .Site.Params.analyticsId }}
-  <script
-    async
-    defer
-    data-website-id="{{ $.Site.Params.analyticsId }}"
-    src="https://analytics.dakotahpena.dev/umami.js">
-  </script>
+  <script defer src="https://analytics.dakotahpena.dev/script.js" data-website-id="{{ $.Site.Params.analyticsId }}"></script>
 {{ end }}
