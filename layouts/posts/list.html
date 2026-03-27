@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<div>
+<div class="posts__container">
   <section class="content-column">
     {{ .Content }}
   </section>
@@ -9,7 +9,7 @@
 <div class="posts__container">
   <section class="post__container content-column">
     {{ range (.Paginate ( first 10 .Pages.ByDate.Reverse )).Pages }}
-      <article class="post__content">
+      <article class="post__meta">
         <time datetime="{{ .Date }}">
           {{- .Date.Format (.Site.Params.dateFormat) -}}
         </time>
