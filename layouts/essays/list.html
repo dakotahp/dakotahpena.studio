@@ -11,7 +11,18 @@
     {{ range .Pages }}
       <article>
         <div>
-          <h2><a href="{{ .RelPermalink }}" class="no-underline">{{ .Title }}</a></h2>
+          <h1 class="post__title">
+            <a href="{{ .RelPermalink }}" class="no-underline">
+              {{ .Title }}
+            </a>
+          </h1>
+
+          <div class="post__meta">
+            <time datetime="{{ .Date }}">
+              {{- .Date.Format (.Site.Params.dateFormat) -}}
+            </time>
+          </div>
+
           {{ .Summary }}
         </div>
 

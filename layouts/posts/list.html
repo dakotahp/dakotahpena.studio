@@ -9,16 +9,18 @@
 <div class="posts__container">
   <section class="post__container content-column">
     {{ range (.Paginate ( first 10 .Pages.ByDate.Reverse )).Pages }}
-      <article class="post__meta">
-        <time datetime="{{ .Date }}">
-          {{- .Date.Format (.Site.Params.dateFormat) -}}
-        </time>
-
+      <article>
         <h1 class="post__title">
           <a href="{{ .RelPermalink }}" class="no-underline">
             {{ .Title }}
           </a>
         </h1>
+
+        <div class="post__meta">
+          <time datetime="{{ .Date }}">
+            {{- .Date.Format (.Site.Params.dateFormat) -}}
+          </time>
+        </div>
 
         <p>
           {{ .Summary }}
