@@ -380,3 +380,6 @@ a.no-underline          { text-decoration: none; }
 article                 { background: none; box-shadow: none; border-radius: 0; padding: 0; }
 ul.inline               { display: flex; flex-wrap: wrap; gap: 0.5rem; list-style: none; padding: 0; }
 .container              { max-width: 62.5rem; }
+main.container          { padding-bottom: 3rem; }
+.content-column article { margin-bottom: 5rem; }
+.content-column article:last-child { margin-bottom: 0; }

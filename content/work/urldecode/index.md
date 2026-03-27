@@ -12,6 +12,6 @@ resources:
 
 A URL encoder and decoder. Paste a URL, get it back decoded or encoded.
 
-The design is inspired by the Drive (2011) movie poster — near-black background, hot pink accent, scanline overlay, italic serif title with a glow. Zero dependencies, no build step. Three files served directly from GitHub Pages.
+The design is inspired by the Drive (2011) movie poster: near-black background, hot pink accent, scanline overlay, italic serif title with a glow. Zero dependencies, no build step. Three files served directly from GitHub Pages.
 
 <a href="https://urldecode.dakotahpena.dev">Visit</a> or <a href="https://github.com/dakotahp/urldecode.dakotahpena.dev">view source</a>
