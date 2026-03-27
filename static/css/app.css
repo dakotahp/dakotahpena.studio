@@ -124,6 +124,20 @@ img.hero {
   width: 50%;
 }
 
+/* ─── Section list header ────────────────────────────────────── */
+
+h1.section-title {
+  --pico-font-size: clamp(2rem, 4.5vw, 3.25rem);
+  font-size: clamp(2rem, 4.5vw, 3.25rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--site-rule);
+}
+
 /* ─── Posts & Essays ─────────────────────────────────────────── */
 
 .posts__container time,
