@@ -9,14 +9,16 @@
 <div>
   <section class="content-column">
     {{ range (.Paginate ( first 10 .Pages.ByDate.Reverse )).Pages }}
-      <article>
+      <article class="posts__container">
         <div>
           <h2><a href="{{ .RelPermalink }}" class="no-underline">{{ .Title }}</a></h2>
 
-          {{ range .Resources.ByType "image" }}
-            {{ $image := .Resize "300x q100" }}
-            <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}">
-          {{ end }}
+          <div class="work-gallery">
+            {{ range .Resources.ByType "image" }}
+              {{ $image := .Resize "300x q100" }}
+              <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}">
+            {{ end }}
+          </div>
 
           <div>
             {{ .Summary }}

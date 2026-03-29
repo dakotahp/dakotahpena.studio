@@ -140,6 +140,23 @@ h1.section-title {
 
 /* ─── Posts & Essays ─────────────────────────────────────────── */
 
+.posts__container,
+.post__container,
+.post__container p {
+  font-size: 1.5rem;
+}
+
+.post__container article h2 {
+  font-size: 2rem;
+}
+
+.posts__container h2,
+.post__container h1 {
+  font-size: 2.5rem;
+  margin-top: 0.5rem;
+}
+
+
 .posts__container time,
 .post__container .post__meta {
   font-size: 1rem;
@@ -150,26 +167,10 @@ h1.section-title {
   margin-top: 2rem;
 }
 
-.posts__container h2 {
-  margin-top: 0.5rem;
-}
-
-.post__container {
-  font-size: 1.5rem;
-}
-
-.post__container p {
-  font-size: 1.5rem;
-}
-
 .post__container article h1,
 .post__container article h2,
 .post__container article h3 {
   margin-top: 45px;
-}
-
-.post__container article h2 {
-  font-size: 2rem;
 }
 
 .post__container .post__content .drop-cap > p:first-of-type:first-letter {
