@@ -10,8 +10,8 @@ resources:
 - src: screenshot.png
 ---
 
-Share your contact details via a link. Recipients get a vCard they can save directly to their contacts — no social platform required.
+Share your contact details via a link. Recipients get a vCard they can save directly to their contacts, no social platform required.
 
-Built on Rails 8 with Hotwire, deployed via Kamal to a single VPS. Supports multiple identities per user and Stripe payments.
+Built on Rails 8 with Hotwire. Supports multiple identities per user and Stripe payments.
 
 <a href="https://letsconnect.lol">Sign up free</a> to share your own.
