@@ -1,34 +1,28 @@
 {{ define "main" }}
 
-<div class="post__container">
-  <section class="content-column">
-    <a href="/essays/" class="no-underline">&#x2190; Back to Essays</a>
-  </section>
-</div>
+{{ partial "back-link.html" (dict "url" "/essays/" "label" "Essays") }}
 
-<div class="post__container">
-  <section class="content-column">
+<section class="content-column prose">
 
-    <h1 class="post__title">{{ .Title }}</h1>
+  <h1 class="post__title">{{ .Title }}</h1>
 
-    {{ if .Date }}
-      <div class="post__meta">
-        <time datetime="{{ .Date.Format "2006-01-02" }}">{{- .Date.Format (.Site.Params.dateFormat) -}}</time>
+  {{ if .Date }}
+    <div class="post__meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{- .Date.Format (.Site.Params.dateFormat) -}}</time>
 
-        {{ if .Params.edited }}
-          &middot;
-          <em>
-            Edited <time datetime="{{ .Params.edited }}">{{- dateFormat (.Site.Params.dateFormat) .Params.edited -}}</time>
-          </em>
-        {{ end }}
-      </div>
-    {{ end }}
+      {{ if .Params.edited }}
+        &middot;
+        <em>
+          Edited <time datetime="{{ .Params.edited }}">{{- dateFormat (.Site.Params.dateFormat) .Params.edited -}}</time>
+        </em>
+      {{ end }}
+    </div>
+  {{ end }}
 
-    {{ partial "table_of_contents.html" . }}
+  {{ partial "table_of_contents.html" . }}
 
-    <article class="post__content">{{ .Content }}</article>
+  <article class="post__content">{{ .Content }}</article>
 
-  </section>
-</div>
+</section>
 
 {{ end }}

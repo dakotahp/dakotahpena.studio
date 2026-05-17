@@ -1,41 +1,35 @@
 {{ define "main" }}
 
-<div class="posts__container">
-  <section class="content-column content-column--wide">
-    {{ .Content }}
-  </section>
-</div>
+<section class="content-column content-column--wide prose">
+  {{ .Content }}
+</section>
 
-<div class="posts__container">
-  <section class="post__container content-column content-column--wide">
-    {{ range (.Paginate ( first 10 .Pages.ByDate.Reverse )).Pages }}
-      <article>
-        <h1 class="post__title">
-          <a href="{{ .RelPermalink }}" class="no-underline">
-            {{ .Title }}
-          </a>
-        </h1>
+<section class="content-column content-column--wide prose">
+  {{ range (.Paginate ( first 10 .Pages.ByDate.Reverse )).Pages }}
+    <article>
+      <h1 class="post__title">
+        <a href="{{ .RelPermalink }}" class="no-underline">
+          {{ .Title }}
+        </a>
+      </h1>
 
-        <div class="post__meta">
-          <time datetime="{{ .Date }}">
-            {{- .Date.Format (.Site.Params.dateFormat) -}}
-          </time>
+      <div class="post__meta">
+        <time datetime="{{ .Date }}">
+          {{- .Date.Format (.Site.Params.dateFormat) -}}
+        </time>
+      </div>
+
+      <p>
+        {{ .Summary }}
+      </p>
+
+      {{ if .Truncated }}
+        <div>
+          <a href="{{ .RelPermalink }}">Read more…</a>
         </div>
-
-        <p>
-          {{ .Summary }}
-        </p>
-
-        {{ if .Truncated }}
-          <div>
-            <a href="{{ .RelPermalink }}">Read more…</a>
-          </div>
-        {{ end }}
-      </article>
-    {{ end }}
-  </section>
-
-  {{ partial "blog_sidebar.html" . }}
-</div>
+      {{ end }}
+    </article>
+  {{ end }}
+</section>
 
 {{ end }}

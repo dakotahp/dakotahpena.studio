@@ -1,26 +1,20 @@
 {{ define "main" }}
 
-<div>
-  <section class="content-column content-column--wide">
-    <a href="/">&#x2190; Back to Home</a>
-  </section>
-</div>
+{{ partial "back-link.html" (dict "url" "/" "label" "Home" "wide" true) }}
 
-<div>
-  <section class="content-column content-column--wide blog-index-container">
-    {{ range .Paginator.Pages }}
-      <article>
-        <time datetime="{{ .Date }}">{{ .Date.Format $.Site.Params.dateFormat }}</time>
-        <h2><a href="{{ .RelPermalink }}" class="no-underline">{{ .Title }}</a></h2>
-        <div>
-          {{ .Summary }}
-        </div>
-        <div>
-          <a href="{{ .RelPermalink }}">Read more</a>
-        </div>
-      </article>
-    {{ end }}
-  </section>
-</div>
+<section class="content-column content-column--wide prose blog-index-container">
+  {{ range .Paginator.Pages }}
+    <article>
+      <time datetime="{{ .Date }}">{{ .Date.Format $.Site.Params.dateFormat }}</time>
+      <h2><a href="{{ .RelPermalink }}" class="no-underline">{{ .Title }}</a></h2>
+      <div>
+        {{ .Summary }}
+      </div>
+      <div>
+        <a href="{{ .RelPermalink }}">Read more</a>
+      </div>
+    </article>
+  {{ end }}
+</section>
 
 {{ end }}

@@ -1,47 +1,39 @@
 {{ define "main" }}
 
-<div class="post__container">
-  <section class="content-column">
-    <a href="/posts/" class="no-underline">&#x2190; Back to Blog</a>
-  </section>
-</div>
+{{ partial "back-link.html" (dict "url" "/posts/" "label" "Blog") }}
 
-<div class="post__container">
-  <section class="content-column">
+<section class="content-column prose">
 
-    <h1 class="post__title">{{ .Title }}</h1>
+  <h1 class="post__title">{{ .Title }}</h1>
 
-    <div class="post__meta">
-      <time datetime="{{ .Date.Format "2006-01-02" }}">
-        {{- .Date.Format (.Site.Params.dateFormat) -}}
-      </time>
+  <div class="post__meta">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">
+      {{- .Date.Format (.Site.Params.dateFormat) -}}
+    </time>
 
-      &middot;
+    &middot;
 
-      <span>{{ .ReadingTime }} minute read</span>
-    </div>
+    <span>{{ .ReadingTime }} minute read</span>
+  </div>
 
-    <article class="post__content">
-      {{ .Content }}
-    </article>
+  <article class="post__content">
+    {{ .Content }}
+  </article>
 
-    <hr>
+  <hr>
 
-    <div class="meta">
-      <span>
-        Filed under
-        {{ range .Params.categories }}
-          <a href="/categories/{{ lower . }}/">{{ . }}</a>
-        {{- end -}},
-        tagged with
-        {{ range .Params.tags }}
-          <a href="/tags/{{ lower . }}/">{{ . }}</a>
-        {{- end -}}.
-      </span>
-    </div>
-  </section>
-
-  {{ partial "blog_sidebar.html" . }}
-</div>
+  <div class="post__meta">
+    <span>
+      Filed under
+      {{ range .Params.categories }}
+        <a href="/categories/{{ lower . }}/">{{ . }}</a>
+      {{- end -}},
+      tagged with
+      {{ range .Params.tags }}
+        <a href="/tags/{{ lower . }}/">{{ . }}</a>
+      {{- end -}}.
+    </span>
+  </div>
+</section>
 
 {{ end }}

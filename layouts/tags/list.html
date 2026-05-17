@@ -1,20 +1,16 @@
 {{ define "main" }}
 
-<div class="posts__container">
-  <section class="content-column">
-    <h1>{{ .Title }}</h1>
-    <article>
-      <ul class="inline">
-        {{ range .Pages }}
-          <li>
-            <a href="{{ .RelPermalink }}" class="no-underline">{{ .Title }}</a>
-          </li>
-        {{ end }}
-      </ul>
-    </article>
-  </section>
-
-  {{ partial "blog_sidebar.html" . }}
-</div>
+<section class="content-column content-column--wide prose">
+  <h1>{{ .Title }}</h1>
+  <article>
+    <ul class="inline">
+      {{ range .Pages }}
+        <li>
+          <a href="{{ .RelPermalink }}" class="no-underline">{{ .Title }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </article>
+</section>
 
 {{ end }}

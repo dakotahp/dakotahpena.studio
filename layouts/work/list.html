@@ -1,38 +1,32 @@
 {{ define "main" }}
 
-<div>
-  <section class="content-column">
-    {{ .Content }}
-  </section>
-</div>
+<section class="content-column content-column--wide prose">
+  {{ .Content }}
+</section>
 
-<div>
-  <section class="content-column">
-    {{ range (.Paginate ( first 10 .Pages.ByDate.Reverse )).Pages }}
-      <article class="posts__container">
-        <div>
-          <h2><a href="{{ .RelPermalink }}" class="no-underline">{{ .Title }}</a></h2>
+<section class="content-column content-column--wide prose">
+  {{ range (.Paginate ( first 10 .Pages.ByDate.Reverse )).Pages }}
+    <article>
+      <h2><a href="{{ .RelPermalink }}" class="no-underline">{{ .Title }}</a></h2>
 
-          <div class="work-gallery">
-            {{ range .Resources.ByType "image" }}
-              {{ $image := .Resize "300x q100" }}
-              <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}">
-            {{ end }}
-          </div>
-
-          <div>
-            {{ .Summary }}
-          </div>
-        </div>
-
-        {{ if .Truncated }}
-          <div>
-            <a href="{{ .RelPermalink }}">Read more…</a>
-          </div>
+      <div class="work-gallery">
+        {{ range .Resources.ByType "image" }}
+          {{ $image := .Resize "300x q100" }}
+          <img src="{{ $image.RelPermalink }}" alt="{{ .Title }}">
         {{ end }}
-      </article>
-    {{ end }}
-  </section>
-</div>
+      </div>
+
+      <div>
+        {{ .Summary }}
+      </div>
+
+      {{ if .Truncated }}
+        <div>
+          <a href="{{ .RelPermalink }}">Read more…</a>
+        </div>
+      {{ end }}
+    </article>
+  {{ end }}
+</section>
 
 {{ end }}

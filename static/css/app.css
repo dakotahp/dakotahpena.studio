@@ -174,23 +174,16 @@ h1.section-title {
 
 /* ─── Posts & Essays ─────────────────────────────────────────── */
 
-.posts__container,
-.post__container,
-.post__container p {
+.prose,
+.prose p {
   font-size: 1.5rem;
-}
-
-.post__container {
   line-height: 1.6;
 }
 
-.post__container article h2 {
-  font-size: 2rem;
-}
-
-.posts__container .post__title,
-.post__container h1.post__title,
-.post__container h1 {
+.prose .post__title,
+.prose h1,
+.prose > h2,
+.prose article > h2 {
   font-size: 2.5rem;
   font-weight: 600;
   letter-spacing: -0.01em;
@@ -198,25 +191,23 @@ h1.section-title {
   margin-top: 0;
 }
 
-/* Consistent spacing between stacked list entries */
-.posts__container article + article {
-  margin-top: var(--space-xl);
+/* Body-content subheadings — applies only inside actual post bodies */
+.prose .post__content h2 {
+  font-size: 2rem;
 }
 
-.posts__container .post__meta,
-.post__container .post__meta {
+.prose .post__meta {
   font-size: 1rem;
   color: var(--site-muted);
   margin-top: var(--space-2xs);
 }
 
-.posts__container .post__title + .post__meta,
-.post__container .post__title + .post__meta {
+.prose .post__title + .post__meta {
   margin-top: var(--space-2xs);
 }
 
-.posts__container .post__meta + p,
-.posts__container .post__meta + .post__content {
+.prose .post__meta + p,
+.prose .post__meta + .post__content {
   margin-top: var(--space-md);
 }
 
@@ -224,7 +215,7 @@ h1.section-title {
   margin-top: var(--space-lg);
 }
 
-.post__container .post__content .drop-cap > p:first-of-type:first-letter {
+.prose .post__content .drop-cap > p:first-of-type:first-letter {
   color: red;
   float: left;
   font-size: 4em;

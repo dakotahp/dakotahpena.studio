@@ -2,44 +2,38 @@
 
 {{ $images := .Resources.ByType "image" }}
 
-<div class="post__container">
-  <section class="content-column">
-    <a href="/work/" class="no-underline">&#x2190; Back to Work</a>
-  </section>
-</div>
+{{ partial "back-link.html" (dict "url" "/work/" "label" "Work") }}
 
-<div class="post__container">
-  <section class="content-column">
-    <h1>{{ .Title }}</h1>
+<section class="content-column prose">
+  <h1>{{ .Title }}</h1>
 
-    {{ if $images }}
-    <div class="work-gallery">
-      <div class="gallery-hero">
-        {{ range $index, $image := $images }}
-          {{ $full := $image.Fit "1200x800 q90" }}
-          <img id="gallery-img-{{ $index }}"
-               src="{{ $full.RelPermalink }}"
+  {{ if $images }}
+  <div class="work-gallery">
+    <div class="gallery-hero">
+      {{ range $index, $image := $images }}
+        {{ $full := $image.Fit "1200x800 q90" }}
+        <img id="gallery-img-{{ $index }}"
+             src="{{ $full.RelPermalink }}"
+             alt="{{ with $image.Title }}{{ . }}{{ else }}{{ $.Title }} image {{ $index | add 1 }}{{ end }}">
+      {{ end }}
+    </div>
+    {{ if gt (len $images) 1 }}
+    <div class="gallery-thumbs">
+      {{ range $index, $image := $images }}
+        {{ $thumb := $image.Fit "200x150 q80" }}
+        <a href="#gallery-img-{{ $index }}">
+          <img src="{{ $thumb.RelPermalink }}"
                alt="{{ with $image.Title }}{{ . }}{{ else }}{{ $.Title }} image {{ $index | add 1 }}{{ end }}">
-        {{ end }}
-      </div>
-      {{ if gt (len $images) 1 }}
-      <div class="gallery-thumbs">
-        {{ range $index, $image := $images }}
-          {{ $thumb := $image.Fit "200x150 q80" }}
-          <a href="#gallery-img-{{ $index }}">
-            <img src="{{ $thumb.RelPermalink }}"
-                 alt="{{ with $image.Title }}{{ . }}{{ else }}{{ $.Title }} image {{ $index | add 1 }}{{ end }}">
-          </a>
-        {{ end }}
-      </div>
+        </a>
       {{ end }}
     </div>
     {{ end }}
+  </div>
+  {{ end }}
 
-    <article>
-      {{ .Content }}
-    </article>
-  </section>
-</div>
+  <article class="post__content">
+    {{ .Content }}
+  </article>
+</section>
 
 {{ end }}
