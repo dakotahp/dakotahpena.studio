@@ -890,7 +890,7 @@ main.container          { padding-bottom: var(--space-2xl); }
 .footer-row {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: flex-end;
   gap: var(--space-md);
   flex-wrap: wrap;
 }
@@ -913,7 +913,6 @@ main.container          { padding-bottom: var(--space-2xl); }
   cursor: pointer;
   opacity: 0.55;
   flex: 0 0 auto;
-  align-self: flex-end;
   transition: opacity 200ms ease;
 }
 
