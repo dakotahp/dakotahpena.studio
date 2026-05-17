@@ -1,4 +1,6 @@
 {{- $wide := default false .wide -}}
-<section class="content-column{{ if $wide }} content-column--wide{{ end }} prose">
-  <a href="{{ .url }}" class="no-underline">&#x2190; Back to {{ .label }}</a>
-</section>
+<nav class="content-column{{ if $wide }} content-column--wide{{ end }} back-link" aria-label="Breadcrumb">
+  <a href="{{ .url }}" class="back-link__link no-underline">
+    <span class="back-link__arrow" aria-hidden="true">&larr;</span>{{ .label }}
+  </a>
+</nav>

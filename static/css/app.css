@@ -160,17 +160,52 @@ img.hero {
 
 /* ─── Section list header ────────────────────────────────────── */
 
-h1.section-title {
-  --pico-font-size: clamp(2rem, 4.5vw, 3.25rem);
-  font-size: clamp(2rem, 4.5vw, 3.25rem);
+.section-header {
+  margin-bottom: var(--space-xl);
+}
+
+.section-header__eyebrow {
+  display: block;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--site-muted);
+  margin-bottom: var(--space-sm);
+}
+
+.prose .section-header__title,
+h1.section-header__title {
+  font-size: clamp(2.5rem, 5vw, 3.75rem);
   font-weight: 600;
   letter-spacing: -0.02em;
-  line-height: 1.1;
-  margin-top: 0;
-  margin-bottom: var(--space-lg);
-  padding-bottom: var(--space-md);
-  border-bottom: 1px solid var(--site-rule);
+  line-height: 1.05;
+  margin: 0;
 }
+
+/* ─── Back-link (breadcrumb chrome above show pages) ─────────── */
+
+.back-link {
+  margin-bottom: var(--space-xl);
+}
+
+.back-link__link {
+  display: inline-block;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--site-muted);
+}
+
+.back-link__arrow {
+  display: inline-block;
+  margin-right: 0.4em;
+  transition: transform 200ms ease;
+}
+
+.back-link__link:hover { color: var(--pico-color); }
+.back-link__link:hover .back-link__arrow { transform: translateX(-3px); }
 
 /* ─── Posts & Essays ─────────────────────────────────────────── */
 
