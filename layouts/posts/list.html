@@ -1,13 +1,13 @@
 {{ define "main" }}
 
 <div class="posts__container">
-  <section class="content-column">
+  <section class="content-column content-column--wide">
     {{ .Content }}
   </section>
 </div>
 
 <div class="posts__container">
-  <section class="post__container content-column">
+  <section class="post__container content-column content-column--wide">
     {{ range (.Paginate ( first 10 .Pages.ByDate.Reverse )).Pages }}
       <article>
         <h1 class="post__title">

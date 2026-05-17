@@ -1,13 +1,13 @@
 {{ define "main" }}
 
 <div>
-  <section class="content-column">
+  <section class="content-column content-column--wide">
     <a href="/">&#x2190; Back to Home</a>
   </section>
 </div>
 
 <div>
-  <section class="content-column blog-index-container">
+  <section class="content-column content-column--wide blog-index-container">
     {{ range .Paginator.Pages }}
       <article>
         <time datetime="{{ .Date }}">{{ .Date.Format $.Site.Params.dateFormat }}</time>
