@@ -890,7 +890,7 @@ main.container          { padding-bottom: var(--space-2xl); }
 .footer-row {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
   gap: var(--space-md);
   flex-wrap: wrap;
 }
@@ -984,11 +984,15 @@ main.container          { padding-bottom: var(--space-2xl); }
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  line-height: 1.6;
+  gap: 0.25rem;
 }
 
 .footer-nav a {
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  line-height: 1.2;
   color: var(--site-muted);
   text-decoration: none;
   transition: color 150ms ease;
