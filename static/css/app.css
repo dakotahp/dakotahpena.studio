@@ -188,16 +188,36 @@ h1.section-title {
   font-size: 2rem;
 }
 
-.posts__container h2,
+.posts__container .post__title,
+.post__container h1.post__title,
 .post__container h1 {
   font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
   margin-top: 0;
 }
 
-.posts__container time,
+/* Consistent spacing between stacked list entries */
+.posts__container article + article {
+  margin-top: var(--space-xl);
+}
+
+.posts__container .post__meta,
 .post__container .post__meta {
   font-size: 1rem;
-  color: #969896;
+  color: var(--site-muted);
+  margin-top: var(--space-2xs);
+}
+
+.posts__container .post__title + .post__meta,
+.post__container .post__title + .post__meta {
+  margin-top: var(--space-2xs);
+}
+
+.posts__container .post__meta + p,
+.posts__container .post__meta + .post__content {
+  margin-top: var(--space-md);
 }
 
 .post__content {
