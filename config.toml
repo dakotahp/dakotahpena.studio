@@ -19,6 +19,7 @@ author = "Dakotah"
 contactEmail = "hey@dakotahpena.studio"
 dateFormat = "Jan 2, 2006"
 description = "Dakotah Peña, maker."
+featured = "/work/letsconnectlol/"
 images = ["site-feature-image.jpg"]
 analyticsId = "56b72f90-ebf6-4dea-b795-83a5e9fdb5e6"
 
