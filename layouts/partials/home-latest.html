@@ -1,0 +1,39 @@
+{{- $featured := "" -}}
+{{- with site.Params.featured -}}
+  {{- $featured = site.GetPage . -}}
+{{- end -}}
+
+{{- $sections := slice "posts" "essays" "work" -}}
+{{- $items := where site.RegularPages "Section" "in" $sections -}}
+{{- if $featured -}}
+  {{- $items = where $items "Permalink" "ne" $featured.Permalink -}}
+{{- end -}}
+{{- $items = first 5 ($items.ByDate.Reverse) -}}
+
+{{- $labels := dict "posts" "Blog" "essays" "Essay" "work" "Work" -}}
+
+{{- if $items -}}
+  <section class="home-section">
+    <p class="home-eyebrow">Latest</p>
+    <ul class="home-latest">
+      {{- range $items }}
+        {{- $summary := .Params.description -}}
+        {{- if not $summary -}}
+          {{- $summary = .Summary | plainify | truncate 140 -}}
+        {{- end }}
+        <li class="home-latest__row">
+          <div class="home-latest__left">
+            <span class="home-latest__eyebrow">{{ index $labels .Section }}</span>
+            <span class="home-latest__date">{{ .Date.Format (site.Params.dateFormat) }}</span>
+          </div>
+          <div>
+            <h3 class="home-latest__title">
+              <a href="{{ .RelPermalink }}" class="no-underline">{{ .Title }}</a>
+            </h3>
+            <p class="home-latest__summary">{{ $summary }}</p>
+          </div>
+        </li>
+      {{- end }}
+    </ul>
+  </section>
+{{- end -}}
