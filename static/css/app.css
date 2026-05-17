@@ -996,7 +996,7 @@ main.container          { padding-bottom: var(--space-2xl); }
 
 .footer-nav a:hover,
 .footer-nav a:focus-visible {
-  color: inherit;
+  color: var(--site-color);
   text-decoration: underline;
 }
 
