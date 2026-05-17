@@ -928,6 +928,10 @@ main.container          { padding-bottom: var(--space-2xl); }
   border-radius: 2px;
 }
 
+[data-theme="dark"] .color-mode-toggle:focus-visible {
+  outline-color: var(--site-color);
+}
+
 .color-mode-toggle__sun,
 .color-mode-toggle__moon {
   display: inline-block;
