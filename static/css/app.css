@@ -882,3 +882,82 @@ main.container          { padding-bottom: var(--space-2xl); }
   .home-featured { grid-template-columns: 1fr; }
   .home-latest__row { grid-template-columns: 1fr; gap: var(--space-2xs); }
 }
+
+/* ===========================================================================
+   Color-mode toggle (footer)
+   =========================================================================== */
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.footer-row > p {
+  margin: 0;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.color-mode-toggle {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 1.25rem;
+  line-height: 1;
+  color: inherit;
+  cursor: pointer;
+  opacity: 0.55;
+  flex: 0 0 auto;
+  align-self: flex-end;
+  transition: opacity 200ms ease;
+}
+
+.color-mode-toggle:hover,
+.color-mode-toggle:focus-visible {
+  opacity: 1;
+}
+
+.color-mode-toggle:focus-visible {
+  outline: 2px solid var(--site-accent);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+.color-mode-toggle__sun,
+.color-mode-toggle__moon {
+  display: inline-block;
+  transition: transform 300ms ease;
+}
+
+/* Glyph visibility keyed on theme — sun is the default */
+.color-mode-toggle__moon {
+  display: none;
+}
+
+[data-theme="dark"] .color-mode-toggle__sun {
+  display: none;
+}
+
+[data-theme="dark"] .color-mode-toggle__moon {
+  display: inline-block;
+}
+
+/* Playful hover motion — gated on reduced-motion preference */
+@media (prefers-reduced-motion: no-preference) {
+  .color-mode-toggle:hover .color-mode-toggle__sun {
+    transform: scale(1.15) rotate(25deg);
+  }
+  .color-mode-toggle:hover .color-mode-toggle__moon {
+    transform: scale(1.15) rotate(-15deg);
+  }
+  .color-mode-toggle:active .color-mode-toggle__sun,
+  .color-mode-toggle:active .color-mode-toggle__moon {
+    transform: scale(0.92);
+    transition-duration: 100ms;
+  }
+}
