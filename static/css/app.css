@@ -987,6 +987,11 @@ main.container          { padding-bottom: var(--space-2xl); }
   gap: 0.25rem;
 }
 
+.footer-nav li {
+  margin: 0;
+  padding: 0;
+}
+
 .footer-nav a {
   font-size: 0.8125rem;
   font-weight: 600;
@@ -1001,7 +1006,6 @@ main.container          { padding-bottom: var(--space-2xl); }
 .footer-nav a:hover,
 .footer-nav a:focus-visible {
   color: var(--site-color);
-  text-decoration: underline;
 }
 
 .footer-nav a:focus-visible {
