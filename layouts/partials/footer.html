@@ -1,4 +1,4 @@
-<div>
+<div class="footer-row">
   <p>
     Review my code on <a href="https://github.com/dakotahp">GitHub</a>.
     Check out my photography on <a href="https://smugmug.com/dakotahp">SmugMug</a>.
@@ -9,5 +9,8 @@
     You may <a href='{{ relref . "/contact.html" }}'>contact me</a> if you'd like.
   </p>
 
-  <p>Psst, you can <a class="color-mode-toggle">switch</a> between 🌞 and 🌚 mode.</p>
+  <button class="color-mode-toggle" type="button" aria-label="Toggle color mode" title="Switch color mode">
+    <span class="color-mode-toggle__sun" aria-hidden="true">🌞</span>
+    <span class="color-mode-toggle__moon" aria-hidden="true">🌚</span>
+  </button>
 </div>
