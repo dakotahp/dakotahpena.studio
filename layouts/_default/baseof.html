@@ -10,6 +10,13 @@
     <meta name="author" content="{{ .Site.Params.author }}">
     <meta name="color-scheme" content="dark light">
     {{ hugo.Generator }}
+    <script>
+      (function() {
+        var saved = localStorage.getItem("theme");
+        var systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.dataset.theme = saved || (systemDark ? "dark" : "light");
+      })();
+    </script>
     <link rel="canonical" href="{{ .Permalink }}">
 
     <link rel="icon" href="/favicon.ico" sizes="any">
