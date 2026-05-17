@@ -44,6 +44,10 @@
   --width-wide:  46rem;
   --width-prose: 38rem;
 
+  /* Brand accent — oxblood from the logo. Themed colors live in the
+     theme blocks below; this one is the same in light and dark. */
+  --site-accent: #7A2424;
+
   /* Spacing scale */
   --space-3xs: 0.25rem;
   --space-2xs: 0.5rem;
@@ -87,8 +91,38 @@
 #primary-nav a,
 #primary-nav a:visited,
 #primary-nav a:active {
+  position: relative;
   text-decoration: none;
   margin: 0 10px;
+  padding: 0.25rem 0.1rem;
+}
+
+/* Draw-in underline on hover */
+#primary-nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 100%;
+  bottom: -2px;
+  height: 1px;
+  background: currentColor;
+  transition: right 220ms ease;
+}
+#primary-nav a:hover::after { right: 0; }
+#primary-nav a:hover       { color: var(--site-color); }
+
+/* Active section: small centered dot beneath */
+#primary-nav a.active { color: var(--site-color); }
+#primary-nav a.active::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--site-color);
+  transform: translateX(-50%);
 }
 
 /* ─── Typography ─────────────────────────────────────────────── */
@@ -231,8 +265,30 @@ h1.section-header__title {
   font-size: 2rem;
 }
 
+/* Entry-title hover arrow: muted, fades and slides in from the left. */
+.post__title a {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.3em;
+}
+.post__title-arrow {
+  display: inline-block;
+  font-size: 0.7em;
+  color: var(--site-muted);
+  opacity: 0;
+  transform: translateX(-6px);
+  transition: opacity 200ms ease, transform 220ms ease;
+}
+.post__title a:hover .post__title-arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 .prose .post__meta {
-  font-size: 1rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
   color: var(--site-muted);
   margin-top: var(--space-2xs);
 }
@@ -572,8 +628,24 @@ a:visited:not(.button),
 a:active:not(.button)   { color: var(--site-link); }
 a:not(.button):not(.no-underline),
 a:visited:not(.button):not(.no-underline),
-a:active:not(.button):not(.no-underline) { text-decoration: underline; }
+a:active:not(.button):not(.no-underline) {
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+  text-decoration-color: var(--site-muted);
+  transition: text-decoration-thickness 150ms ease,
+              text-decoration-color 150ms ease;
+}
+a:not(.button):not(.no-underline):hover {
+  text-decoration-thickness: 2px;
+  text-decoration-color: currentColor;
+}
 a.no-underline          { text-decoration: none; }
+
+::selection {
+  background: var(--site-accent);
+  color: #ffffff;
+}
 #logo                   { color: var(--site-logo-fill); }
 #primary-nav a,
 #primary-nav a:visited,
