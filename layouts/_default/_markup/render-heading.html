@@ -1,0 +1,8 @@
+{{- if ge .Level 2 -}}
+<h{{ .Level }} id="{{ .Anchor }}">
+  {{ .Text | safeHTML }}
+  <a class="heading-anchor no-underline" href="#{{ .Anchor }}" aria-label="Permalink to this heading">#</a>
+</h{{ .Level }}>
+{{- else -}}
+<h{{ .Level }}>{{ .Text | safeHTML }}</h{{ .Level }}>
+{{- end -}}

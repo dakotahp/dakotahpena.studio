@@ -24,9 +24,9 @@
       </p>
 
       {{ if .Truncated }}
-        <div>
-          <a href="{{ .RelPermalink }}">Read more…</a>
-        </div>
+        <a href="{{ .RelPermalink }}" class="read-more no-underline">
+          Read more<span class="read-more__arrow" aria-hidden="true">&rarr;</span>
+        </a>
       {{ end }}
     </article>
   {{ end }}

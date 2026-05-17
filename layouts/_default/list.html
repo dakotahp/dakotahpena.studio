@@ -16,9 +16,9 @@
       <div>
         {{ .Summary }}
       </div>
-      <div>
-        <a href="{{ .RelPermalink }}">Read more</a>
-      </div>
+      <a href="{{ .RelPermalink }}" class="read-more no-underline">
+        Read more<span class="read-more__arrow" aria-hidden="true">&rarr;</span>
+      </a>
     </article>
   {{ end }}
 </section>

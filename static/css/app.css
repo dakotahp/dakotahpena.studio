@@ -284,6 +284,47 @@ h1.section-header__title {
   transform: translateX(0);
 }
 
+/* "Read more →" — eyebrow vocabulary with right-nudging arrow.
+   The outbound mirror of the back-link's leftward nudge. */
+.read-more {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4em;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--site-muted);
+  margin-top: var(--space-sm);
+}
+.read-more__arrow {
+  display: inline-block;
+  transition: transform 220ms ease;
+}
+.read-more:hover { color: var(--site-color); }
+.read-more:hover .read-more__arrow { transform: translateX(4px); }
+
+/* Heading anchors — emitted by render-heading.html for h2-h6.
+   Muted # fades in on heading hover; brightens when targeted. */
+.heading-anchor {
+  margin-left: 0.4em;
+  color: var(--site-muted);
+  opacity: 0;
+  font-weight: 400;
+  transition: opacity 180ms ease, color 180ms ease;
+}
+h2:hover > .heading-anchor,
+h3:hover > .heading-anchor,
+h4:hover > .heading-anchor,
+h5:hover > .heading-anchor,
+h6:hover > .heading-anchor {
+  opacity: 0.55;
+}
+.heading-anchor:hover {
+  opacity: 1;
+  color: var(--site-color);
+}
+
 .prose .post__meta {
   font-size: 0.8125rem;
   font-weight: 600;
@@ -656,7 +697,8 @@ a.no-underline          { text-decoration: none; }
 #footer                 { background-color: var(--site-footer-bg); }
 #footer a,
 #footer a:visited,
-#footer a:active        { color: var(--site-muted); }
+#footer a:active        { color: var(--site-muted); transition: color 180ms ease, text-decoration-thickness 150ms ease, text-decoration-color 150ms ease; }
+#footer a:hover         { color: var(--site-color); }
 #footer h4,
 #footer p               { color: var(--site-muted); }
 
