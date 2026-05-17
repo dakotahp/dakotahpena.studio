@@ -17,6 +17,8 @@
         <time datetime="{{ .Date }}">
           {{- .Date.Format (.Site.Params.dateFormat) -}}
         </time>
+        &middot;
+        <span>{{ .ReadingTime }} min</span>
       </div>
 
       <p>

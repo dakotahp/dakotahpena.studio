@@ -10,6 +10,10 @@
     <div class="post__meta">
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{- .Date.Format (.Site.Params.dateFormat) -}}</time>
 
+      &middot;
+
+      <span>{{ .ReadingTime }} minute read</span>
+
       {{ if .Params.edited }}
         &middot;
         <em>

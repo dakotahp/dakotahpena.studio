@@ -33,6 +33,18 @@
   font-style: normal;
 }
 
+/* Mercury G1 — display grade, used for drop-caps and other large
+   serif treatments. G1 is the heaviest masters cut, designed for
+   display sizes (headlines, drop-caps) — not body text. */
+@font-face {
+  font-family: 'Mercury';
+  src: url("/fonts/mercury/mercury-textg1bold-webfont.woff2") format("woff2"),
+       url("/fonts/mercury/mercury-textg1bold-webfont.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* ─── PicoCSS overrides ──────────────────────────────────────── */
 
 :root {
@@ -376,12 +388,17 @@ h6:hover > .heading-anchor {
   margin-top: var(--space-lg);
 }
 
-.prose .post__content .drop-cap > p:first-of-type:first-letter {
-  color: red;
+/* Drop-cap — opt-in via <div class="drop-cap"> wrapping the
+   first paragraph. Mercury G1 Bold serif at display scale,
+   floats left so body text flows around it. */
+.prose .post__content .drop-cap > p:first-of-type::first-letter {
+  font-family: 'Mercury', 'Georgia', serif;
+  font-weight: 700;
   float: left;
-  font-size: 4em;
-  line-height: 4.3rem;
-  margin: 0 10px 0 0;
+  font-size: 4.8em;
+  line-height: 0.82;
+  margin: 0.08em 0.08em 0 0;
+  color: var(--site-color);
 }
 
 /* ─── Work gallery ───────────────────────────────────────────── */
@@ -419,13 +436,13 @@ h6:hover > .heading-anchor {
   width: 100px;
   height: 75px;
   object-fit: cover;
-  cursor: pointer;
   opacity: 0.7;
-  transition: opacity 0.15s;
+  transition: opacity 180ms ease, transform 220ms ease;
 }
 
 .gallery-thumbs a:hover img {
   opacity: 1;
+  transform: scale(1.04);
 }
 
 /* ─── Featured Work (homepage) ───────────────────────────────── */
