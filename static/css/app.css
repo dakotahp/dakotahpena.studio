@@ -198,15 +198,51 @@ a.no-underline {
 .text__bold  { font-weight: bold; }
 .text__normal { font-weight: normal; }
 
+/* ─── Forms ──────────────────────────────────────────────────── */
+
+/* Override Pico's form token palette with site tokens */
+:root {
+  --pico-form-element-background-color: var(--site-bg);
+  --pico-form-element-border-color: var(--site-rule);
+  --pico-form-element-color: var(--site-color);
+  --pico-form-element-placeholder-color: var(--site-muted);
+  --pico-form-element-focus-color: var(--site-accent);
+  --pico-primary: var(--site-accent);
+  --pico-primary-hover: #5e1b1b;
+}
+
+form label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--site-muted);
+}
+
+form input:not([type="submit"]),
+form textarea {
+  background-color: var(--site-bg);
+  border-color: var(--site-rule);
+  color: var(--site-color);
+}
+
+form input:not([type="submit"]):focus,
+form textarea:focus {
+  border-color: var(--site-accent);
+  box-shadow: 0 0 0 2px rgba(122, 36, 36, 0.15);
+}
+
 /* ─── Buttons ────────────────────────────────────────────────── */
 
 .button {
-  background-color: #c66;
+  background-color: var(--site-accent);
   color: #fff;
+  border-color: var(--site-accent);
 }
 
 .button:hover {
-  background-color: #ac3939;
+  background-color: #5e1b1b;
+  border-color: #5e1b1b;
 }
 
 
