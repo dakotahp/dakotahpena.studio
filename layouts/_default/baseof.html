@@ -2,7 +2,7 @@
 <html dir="{{ .Site.Language.LanguageDirection | default "ltr" }}" lang="{{- site.Language.Lang -}}">
   <head>
     <meta charset="utf-8">
-    <title>{{ .Title }} | Dakotah Peña</title>
+    <title>{{ if .IsHome }}Dakotah Peña{{ else }}{{ .Title }} | Dakotah Peña{{ end }}</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
