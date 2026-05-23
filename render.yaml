@@ -2,7 +2,4 @@ services:
   - type: web
     name: dakotahpena-studio
     env: static
-    buildCommand: |
-      curl -sSL https://github.com/gohugoio/hugo/releases/download/v0.161.1/hugo_0.161.1_linux-amd64.tar.gz | tar -xz
-      ./hugo
     staticPublishPath: public
