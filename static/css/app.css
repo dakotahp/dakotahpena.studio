@@ -755,13 +755,13 @@ a:active:not(.button):not(.no-underline) {
   text-decoration-line: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 0.22em;
-  text-decoration-color: var(--site-muted);
+  text-decoration-color: currentColor;
   transition: text-decoration-thickness 150ms ease,
               text-decoration-color 150ms ease;
 }
 a:not(.button):not(.no-underline):hover {
   text-decoration-thickness: 2px;
-  text-decoration-color: currentColor;
+  text-decoration-color: var(--site-accent);
 }
 a.no-underline          { text-decoration: none; }
 
