@@ -296,7 +296,7 @@ img.hero {
 /* ─── Section list header ────────────────────────────────────── */
 
 .section-header {
-  margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-lg);
 }
 
 .section-header__eyebrow {
@@ -321,7 +321,7 @@ h1.section-header__title {
 /* ─── Back-link (breadcrumb chrome above show pages) ─────────── */
 
 .back-link {
-  margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-lg);
 }
 
 .back-link__link {
