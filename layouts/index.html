@@ -1,6 +1,27 @@
 {{ define "main" }}
 
-{{ .Content }}
+<section id="hero">
+  <div class="grid">
+    <div>
+      <h1>👋🏼 Hi, I'm Dakotah</h1>
+
+      <h2>
+        I am an engineering leader, writer, and designer.
+      </h2>
+
+      <h2 class="text__normal">
+        My work includes
+        writing <a href='{{ relref . "essays/" }}'>essays</a>
+        and shorter <a href='{{ relref . "posts/" }}'>posts</a>,
+        and designing <a href='{{ relref . "work/" }}'>things</a>.
+      </h2>
+    </div>
+
+    <div>
+      <img src="/img/photo.jpeg" alt="photo of Dakotah Peña" class="hero">
+    </div>
+  </div>
+</section>
 
 {{ partial "home-featured.html" . }}
 {{ partial "home-latest.html" . }}

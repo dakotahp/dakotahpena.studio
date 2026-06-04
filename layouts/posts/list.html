@@ -1,7 +1,10 @@
 {{ define "main" }}
 
 <section class="content-column content-column--wide prose">
-  {{ .Content }}
+  <header class="section-header">
+    <span class="section-header__eyebrow">{{ .Params.eyebrow }}</span>
+    <h1 class="section-header__title">{{ .Title }}</h1>
+  </header>
 </section>
 
 <section class="content-column content-column--wide prose">
