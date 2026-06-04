@@ -14,7 +14,7 @@
         {{ $currentPage := . }}
         {{ range sort .Site.Menus.primary.ByWeight }}
           <li>
-            <a {{ if $currentPage.IsMenuCurrent "main" . }}class="active"{{ end }} href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+            <a {{ if or ($currentPage.IsMenuCurrent "primary" .) ($currentPage.HasMenuCurrent "primary" .) }}class="active"{{ end }} href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
           </li>
         {{ end }}
       </ul>
