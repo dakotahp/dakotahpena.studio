@@ -1,3 +1,12 @@
+/* ─── View Transitions ──────────────────────────────────────── */
+
+@view-transition {
+  navigation: auto;
+}
+
+#header { view-transition-name: site-header; }
+#logo   { view-transition-name: site-logo; }
+
 /* ─── Fonts ─────────────────────────────────────────────────── */
 
 @font-face {
