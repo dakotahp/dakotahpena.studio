@@ -4,7 +4,7 @@
 
 <section class="content-column prose">
 
-  <h1 class="post__title">{{ .Title }}</h1>
+  <h1 class="post__title" style="view-transition-name: post-title-{{ .File.ContentBaseName }};">{{ .Title }}</h1>
 
   {{ if .Date }}
     <div class="post__meta">

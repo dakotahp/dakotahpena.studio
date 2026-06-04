@@ -10,7 +10,7 @@
 <section class="content-column content-column--wide prose">
   {{ range .Pages }}
     <article>
-      <h1 class="post__title">
+      <h1 class="post__title" style="view-transition-name: post-title-{{ .File.ContentBaseName }};">
         <a href="{{ .RelPermalink }}" class="no-underline">
           {{ .Title }}<span class="post__title-arrow" aria-hidden="true">&rarr;</span>
         </a>
