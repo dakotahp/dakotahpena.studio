@@ -59,6 +59,7 @@
 :root {
   --pico-font-family: 'Whitney', 'Helvetica', sans-serif;
   --pico-font-size: 18px;
+  --code-font-size: 1rem;
 
   /* Width tiers — frame (header/footer/hero), wide (list pages), prose (single posts) */
   --width-frame: 62.5rem;
@@ -349,6 +350,16 @@ h1.section-header__title {
 .prose p {
   font-size: 1.5rem;
   line-height: 1.6;
+}
+
+/* Pico sizes code/pre/kbd/samp at .875em, which compounds against the
+   1.5rem prose paragraph size above (23.6px). Pin it to an explicit
+   rem value instead so it's a dial, not a ratio of paragraph size. */
+.prose pre,
+.prose code,
+.prose kbd,
+.prose samp {
+  font-size: var(--code-font-size);
 }
 
 .prose .post__title,
