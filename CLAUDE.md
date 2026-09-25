@@ -50,4 +50,4 @@ PicoCSS is served from `static/css/pico.min.css`. Site-specific styles are in `s
 
 ### CI
 
-Cypress accessibility tests have been removed. Visual regression is handled by BackstopJS (`npx backstop test`).
+GitHub Actions builds the site with `hugo --panicOnWarning` and checks internal links with lychee (`.github/workflows/build.yml`). There are no Node dependencies.

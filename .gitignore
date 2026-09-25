@@ -1,9 +1,6 @@
-node_modules/
 public/
 .hugo_build.lock
 resources/_gen/
-backstop_data/bitmaps_test/
-backstop_data/html_report/
 .superpowers/
 .worktrees/
 docs/superpowers/
