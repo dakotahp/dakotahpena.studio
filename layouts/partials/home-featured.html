@@ -15,7 +15,7 @@
     <article class="home-featured">
       {{- if $thumb }}
         <a href="{{ $featured.RelPermalink }}" class="home-featured__thumb no-underline">
-          <img src="{{ $thumb.RelPermalink }}" alt="">
+          <img src="{{ $thumb.RelPermalink }}" alt=""{{ with $featured.Params.thumbPosition }} style="object-position: {{ . | safeCSS }}"{{ end }}>
         </a>
       {{- end }}
       <div>
