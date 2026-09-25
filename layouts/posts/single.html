@@ -30,7 +30,7 @@
       {{- end -}},
       tagged with
       {{ range .Params.tags }}
-        <a href="/tags/{{ lower . }}/">{{ . }}</a>
+        <a href="/tags/{{ urlize . }}/">{{ . }}</a>
       {{- end -}}.
     </span>
   </div>

@@ -1,3 +1,0 @@
-[codespell]
-skip = ./node_modules/*,*.js,spellcheck-ignore.txt
-ignore-words = spellcheck-ignore.txt

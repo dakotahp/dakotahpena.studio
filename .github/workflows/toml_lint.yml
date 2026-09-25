@@ -7,7 +7,7 @@ jobs:
 
     steps:
       - name: Check out Git repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v7
 
       - name: TOML linter
         uses: yisonPylkita/gh-action-toml-linter@0.1.3
