@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Set up Tombi
-        uses: tombi-toml/setup-tombi@v1.5.5
+        uses: tombi-toml/setup-tombi@v1.5.8
 
       - name: TOML linter
         run: tombi lint config.toml config.development.toml
